@@ -94,7 +94,7 @@ void merge(node * p1, int i1, node * p2, int i2){
     if(!p2 || i2 == 0) return;
 
     if(p1->value < p2->value){
-        
+
     }
 }
 
@@ -110,10 +110,13 @@ void merge_sort(node * p, int n){
     p1->previous->next = nullptr;
     p1->previous = nullptr;
     //List is now split
-    merge_sort(p, n/2);
-    merge_sort(p1, n/2);
 
-    merge(p, n/2, p1, n/2);
+    int size = (n % 2 == 0) ? (n/2) : (n/2 + 1);
+
+    merge_sort(p, n/2);
+    merge_sort(p1, size);
+
+    merge(p, n/2, p1, size);
 }
 
 
