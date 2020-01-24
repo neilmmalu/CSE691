@@ -92,33 +92,34 @@ void doubly_linked_list::merge(node * p1, int i1, node * p2, int i2){
 
     if(!p1 || !p2 || i1 == 0 || i2 == 0) return;
 
-    while(i1 && i2){
+    while(i1 && i2 && p1 && p2){
         if(p1->value <= p2->value){
-            p1 = p1->next;
+            if(p1->next) p1 = p1->next;
             i1--;
         }
         else{
 
             //isolate p2
+			node* temp = p2->next;
             if(p2->previous) p2->previous->next = p2->next;
             if(p2->next) p2->next->previous = p2->previous;
 
             //add p2 before p1
             if(p1->previous) p1->previous->next = p2;
-            if(p1->next) p1->next->previous = p2;
             p2->previous = p1->previous;
             p2->next = p1;
             p1->previous = p2;
             i2--;
 
             if(p1 == head) head = p2;
+			p2 = temp;
         }
     }
     if(i2){
-        p1->next = p2;
-        p2->previous = p1;
+        if(p1) p1->next = p2;
+        if(p2) p2->previous = p1;
     }
-    if(i1) tail = p1;
+    if(i1 && p1 && p1->previous == tail) tail = p1;
 
 
 }
@@ -162,17 +163,17 @@ int main() {
     d1.print_backward();
 
 
-    d2.make_random_list(50, 40);
-    d2.print_forward();
-    d2.print_backward();
+    //d2.make_random_list(50, 40);
+    //d2.print_forward();
+    //d2.print_backward();
 
     /*
     Create two additional threads to speed up the merge sort.
     You have to still use the same merge_sort and merge functions implemented above.
     You will need to do some extra work within main funciton.
     */
-    d2.print_forward();
-    d2.print_backward();
+    //d2.print_forward();
+    //d2.print_backward();
     return 0;
 
 }
