@@ -89,17 +89,26 @@ void doubly_linked_list::print_backward() {
 }
 
 void merge(node * p1, int i1, node * p2, int i2){
-    if(!p1 || i1 == 0) return;
+    if(i1 == 1){
+        if(p1->value <= p2->value){
+            p1->next = p2;
+            p2->previous = p1;
+        }
+        else{
+            if(i2 == 1){
 
-    if(!p2 || i2 == 0) return;
-
-    if(p1->value < p2->value){
-
+            }
+            else{
+                
+            }
+        }
     }
+
+
 }
 
 void merge_sort(node * p, int n){
-    if(n == 0 || n == 1 || !p || !p->next) return p;
+    if(n == 0 || n == 1 || !p || !p->next) return;
 
     node* p1 = p;
     for(int i = 1; i <= n/2; i++){
