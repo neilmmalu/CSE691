@@ -121,7 +121,6 @@ void doubly_linked_list::merge(node * p1, int i1, node * p2, int i2){
     }
     if(i1 && p1 && p1->previous == tail) tail = p1;
 
-
 }
 
 void doubly_linked_list::merge_sort(node * p, int n){
@@ -139,13 +138,14 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous->next = nullptr;
     p1->previous = nullptr;
     //List is now split
-
     merge_sort(p, mid);
     merge_sort(p1, n - mid);
 
+	while (p->previous) p = p->previous;
+	while (p1->previous) p1 = p1->previous;
+
     merge(p, mid, p1, n - mid);
-    cout << "MS n = " << n << endl;
-    this->print_forward();
+    
 }
 
 
@@ -156,7 +156,7 @@ int main() {
     merge sort.
     */
 
-    doubly_linked_list d1, d2;
+	doubly_linked_list d1, d2;
     d1.make_random_list(30, 20);
     d1.print_forward();
     d1.print_backward();
@@ -164,7 +164,6 @@ int main() {
     d1.merge_sort(d1.head, d1.num_nodes);
     d1.print_forward();
     d1.print_backward();
-
 
     //d2.make_random_list(50, 40);
     //d2.print_forward();
