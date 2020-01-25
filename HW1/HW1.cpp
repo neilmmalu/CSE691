@@ -164,7 +164,6 @@ int main() {
     d1.merge_sort(d1.head, d1.num_nodes);
     d1.print_forward();
     d1.print_backward();
-
     //d2.make_random_list(50, 40);
     //d2.print_forward();
     //d2.print_backward();
