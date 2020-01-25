@@ -128,7 +128,10 @@ void doubly_linked_list::merge_sort(node * p, int n){
     if(n == 0 || n == 1 || !p || !p->next) return;
 
     node* p1 = p;
-    for(int i = 1; i <= n/2; i++){
+
+    int mid = n/2;
+
+    for(int i = 1; i <= mid; i++){
         p1 = p1->next;
     }
     //p points to first list
@@ -137,12 +140,12 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous = nullptr;
     //List is now split
 
-    int size = (n % 2 == 0) ? (n/2) : (n/2 + 1);
+    merge_sort(p, mid);
+    merge_sort(p1, n - mid);
 
-    merge_sort(p, n/2);
-    merge_sort(p1, size);
-
-    merge(p, n/2, p1, size);
+    merge(p, mid, p1, n - mid);
+    cout << "MS n = " << n << endl;
+    this->print_forward();
 }
 
 
