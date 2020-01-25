@@ -138,11 +138,17 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous->next = nullptr;
     p1->previous = nullptr;
     //List is now split
+
+	/*thread left(&doubly_linked_list::merge_sort, ref(p), mid);
+	thread right(&doubly_linked_list::merge_sort, ref(p1), n - mid);*/
     merge_sort(p, mid);
     merge_sort(p1, n - mid);
 
 	while (p->previous) p = p->previous;
 	while (p1->previous) p1 = p1->previous;
+
+	/*left.join();
+	right.join();*/
 
     merge(p, mid, p1, n - mid);
     
