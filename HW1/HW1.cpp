@@ -144,13 +144,13 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous = nullptr;
     //List is now split
 
-	thread left(&doubly_linked_list::merge_sort, this, ref(p), mid);
-	thread right(&doubly_linked_list::merge_sort, this, ref(p1), n - mid);
-    /*merge_sort(p, mid);
-    merge_sort(p1, n - mid);*/
+	/*thread left(&doubly_linked_list::merge_sort, this, ref(p), mid);
+	thread right(&doubly_linked_list::merge_sort, this, ref(p1), n - mid);*/
+    merge_sort(p, mid);
+    merge_sort(p1, n - mid);
 
-	left.join();
-	right.join();
+	/*left.join();
+	right.join();*/
 
     //track back to head of the first list
 	while (p->previous) p = p->previous;
@@ -178,6 +178,8 @@ int main() {
 	d1.print_forward();
 	d1.print_backward();
 
+	
+	
 	d2.make_random_list(50, 40);
 	d2.print_forward();
 	d2.print_backward();
@@ -188,10 +190,28 @@ int main() {
     You will need to do some extra work within main funciton.
     */
 
-	thread t2{ &doubly_linked_list::merge_sort, ref(d2), ref(d2.head), d2.num_nodes };
-	t2.join();
+	int mid = d2.num_nodes / 2;
+	node* p = d2.head;
+	node* p1 = d2.head;
+	for (int i = 1; i <= mid; i++) {
+		if (p1->next) p1 = p1->next;
+	}
+	//p1 points to second list
+	p1->previous->next = nullptr;
+	p1->previous = nullptr;
+	//List is now split
+	thread left{ &doubly_linked_list::merge_sort, ref(d2), ref(d2.head), mid };
+	thread right{ &doubly_linked_list::merge_sort, ref(d2), ref(p1), d2.num_nodes - mid };
+	left.join();
+	right.join();
+	while (p->previous) p = p->previous;
+	while (p1->previous) p1 = p1->previous;
+	d2.merge(d2.head, mid, p1, d2.num_nodes - mid);
+
+
 	d2.print_forward();
 	d2.print_backward();
+
     cout << endl;
     return 0;
 
