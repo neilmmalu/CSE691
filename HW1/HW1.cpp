@@ -192,6 +192,7 @@ int main() {
 	t2.join();
 	d2.print_forward();
 	d2.print_backward();
+    cout << endl;
     return 0;
 
 }
