@@ -144,7 +144,9 @@ void doubly_linked_list::merge_sort(node * p, int n){
     merge_sort(p, mid);
     merge_sort(p1, n - mid);
 
+    //track back to head of the first list
 	while (p->previous) p = p->previous;
+    //track back to head of the second list
 	while (p1->previous) p1 = p1->previous;
 
 	/*left.join();
