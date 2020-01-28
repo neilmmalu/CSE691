@@ -139,8 +139,8 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous = nullptr;
     //List is now split
 
-	/*thread left(&doubly_linked_list::merge_sort, ref(p), mid);
-	thread right(&doubly_linked_list::merge_sort, ref(p1), n - mid);*/
+	/*thread left(&doubly_linked_list::merge_sort, this, ref(p), mid);
+	thread right(&doubly_linked_list::merge_sort, this, ref(p1), n - mid);*/
     merge_sort(p, mid);
     merge_sort(p1, n - mid);
 
@@ -175,6 +175,8 @@ int main() {
     //d2.make_random_list(50, 40);
     //d2.print_forward();
     //d2.print_backward();
+
+    //thread t1 {&doubly_linked_list::merge_sort, ref(d1), ref(d1.head), d1.num_nodes};
 
     /*
     Create two additional threads to speed up the merge sort.
