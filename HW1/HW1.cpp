@@ -111,7 +111,14 @@ void doubly_linked_list::merge(node * p1, int i1, node * p2, int i2){
             p1->previous = p2;
             i2--;
 
+			//If the head is not the smallest node, update head
             if(p1 == head) head = p2;
+
+			//If the tail is not the largest node, update tail
+			if (p2 == tail) {
+				tail = p1;
+				while (tail->next) tail = tail->next;
+			}
 			p2 = temp;
         }
     }
@@ -119,8 +126,6 @@ void doubly_linked_list::merge(node * p1, int i1, node * p2, int i2){
         if(p1) p1->next = p2;
         if(p2) p2->previous = p1;
     }
-    if(i1 && p1 && p1->previous == tail) tail = p1;
-
 }
 
 void doubly_linked_list::merge_sort(node * p, int n){
@@ -131,7 +136,7 @@ void doubly_linked_list::merge_sort(node * p, int n){
     int mid = n/2;
 
     for(int i = 1; i <= mid; i++){
-        p1 = p1->next;
+        if(p1->next) p1 = p1->next;
     }
     //p points to first list
     //p1 points to second list
@@ -139,18 +144,18 @@ void doubly_linked_list::merge_sort(node * p, int n){
     p1->previous = nullptr;
     //List is now split
 
-	/*thread left(&doubly_linked_list::merge_sort, this, ref(p), mid);
-	thread right(&doubly_linked_list::merge_sort, this, ref(p1), n - mid);*/
-    merge_sort(p, mid);
-    merge_sort(p1, n - mid);
+	thread left(&doubly_linked_list::merge_sort, this, ref(p), mid);
+	thread right(&doubly_linked_list::merge_sort, this, ref(p1), n - mid);
+    /*merge_sort(p, mid);
+    merge_sort(p1, n - mid);*/
+
+	left.join();
+	right.join();
 
     //track back to head of the first list
 	while (p->previous) p = p->previous;
     //track back to head of the second list
 	while (p1->previous) p1 = p1->previous;
-
-	/*left.join();
-	right.join();*/
 
     merge(p, mid, p1, n - mid);
     
@@ -168,23 +173,25 @@ int main() {
     d1.make_random_list(30, 20);
     d1.print_forward();
     d1.print_backward();
+	
+	d1.merge_sort(d1.head, d1.num_nodes);
+	d1.print_forward();
+	d1.print_backward();
 
-    d1.merge_sort(d1.head, d1.num_nodes);
-    d1.print_forward();
-    d1.print_backward();
-    //d2.make_random_list(50, 40);
-    //d2.print_forward();
-    //d2.print_backward();
-
-    //thread t1 {&doubly_linked_list::merge_sort, ref(d1), ref(d1.head), d1.num_nodes};
+	d2.make_random_list(50, 40);
+	d2.print_forward();
+	d2.print_backward();
 
     /*
     Create two additional threads to speed up the merge sort.
     You have to still use the same merge_sort and merge functions implemented above.
     You will need to do some extra work within main funciton.
     */
-    //d2.print_forward();
-    //d2.print_backward();
+
+	thread t2{ &doubly_linked_list::merge_sort, ref(d2), ref(d2.head), d2.num_nodes };
+	t2.join();
+	d2.print_forward();
+	d2.print_backward();
     return 0;
 
 }
