@@ -1,6 +1,7 @@
-//CIS600/CSE691  HW1
+//HW1
 //Name: Neil Malu
-//SUID: 635692900 NetID: nemalu
+//SUNetID: nemalu SUID: 635692900
+u 
 //Due: 11:59PM, Friday(1/31)
 
 /*
