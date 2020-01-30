@@ -19,7 +19,6 @@ In your threaded implementation, you are allowed to introduce an extra node and 
 It is alright if your implementation does not require the extra node or global pointer to node.
 
 */
-
 #include <iostream>
 #include <thread>
 
@@ -59,7 +58,6 @@ public:
 };
 
 void doubly_linked_list::make_random_list(int m, int n) {
-
     for (int i = 0; i < m; i++) {
         node * p1 = new node(rand() % n);
         p1->previous = tail;
@@ -173,7 +171,8 @@ int main() {
     d1.make_random_list(30, 20);
     d1.print_forward();
     d1.print_backward();
-	
+
+
 	d1.merge_sort(d1.head, d1.num_nodes);
 	d1.print_forward();
 	d1.print_backward();
@@ -189,7 +188,7 @@ int main() {
     You have to still use the same merge_sort and merge functions implemented above.
     You will need to do some extra work within main funciton.
     */
-
+	
 	int mid = d2.num_nodes / 2;
 	node* p = d2.head;
 	node* p1 = d2.head;
@@ -207,7 +206,6 @@ int main() {
 	while (p->previous) p = p->previous;
 	while (p1->previous) p1 = p1->previous;
 	d2.merge(d2.head, mid, p1, d2.num_nodes - mid);
-
 
 	d2.print_forward();
 	d2.print_backward();
