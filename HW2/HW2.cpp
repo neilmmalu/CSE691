@@ -29,8 +29,26 @@ vector<int>* generateLoadOrder(){
     return load;
 }
 
-void generatePickupOrder(){
+vector<int>* generatePickupOrder(){
+    vector<int>* load = new vector<int>();
+    int total = 0;
+    srand(std::chrono::system_clock::now());
+    int index = 0;
+    int comp = 5;
+    bool checkZero = false;
+    while(1){
+        load[i] = rand % comp;
+        if(load[i] == 0) checkZero = true;
+        total += load[i];
+        comp -= load[i];
+        i++;
+        if(i == 4){
+            load[i] = 5 - total;
+            break;
+        }
+    }
 
+    return load;
 }
 
 
