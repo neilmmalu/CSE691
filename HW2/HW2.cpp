@@ -1,7 +1,37 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include <stdlib.h>
+#include <vector>
+#include <chrono>
 
+using namespace std;
+
+vector<int> buffer = {0, 0, 0, 0};
+
+vector<int>* generateLoadOrder(){
+    vector<int>* load = new vector<int>();
+    int total = 0;
+    srand(std::chrono::system_clock::now());
+    int index = 0;
+    int comp = 4;
+    while(1){
+        load[i] = rand % comp;
+        total += load[i];
+        comp -= load[i];
+        i++;
+        if(i == 3){
+            load[i] = 4 - total;
+            break;
+        }
+    }
+
+    return load;
+}
+
+void generatePickupOrder(){
+
+}
 
 
 
