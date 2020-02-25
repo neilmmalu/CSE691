@@ -30,7 +30,7 @@ vector<int>* generateLoadOrder(){
         }
     }
 
-    this_thread::sleep_for(chrono::milliseconds(load[0]*50) + chrono::milliseconds(load[1]*70) + chrono::milliseconds(load[2]*90) + chrono::milliseconds(load[3]*110));
+    this_thread::sleep_for(chrono::microseconds(load[0]*50) + chrono::microseconds(load[1]*70) + chrono::microseconds(load[2]*90) + chrono::microseconds(load[3]*110));
 
     return load;
 }
@@ -59,7 +59,7 @@ vector<int>* generatePickupOrder(){
     int replaceIndex = rand % 3;
     pickup[replaceIndex] += replaceVal;
 
-    this_thread::sleep_for(chrono::milliseconds(pickup[0]*80) + chrono::milliseconds(pickup[1]*100) + chrono::milliseconds(pickup[2]*120) + chrono::milliseconds(pickup[3]*140));
+    this_thread::sleep_for(chrono::microseconds(pickup[0]*80) + chrono::microseconds(pickup[1]*100) + chrono::microseconds(pickup[2]*120) + chrono::microseconds(pickup[3]*140));
 
     return pickup;
 }
