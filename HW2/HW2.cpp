@@ -2,10 +2,14 @@
 #include <thread>
 #include <mutex>
 #include <stdlib.h>
+#include <condition_variable>
 #include <vector>
 #include <chrono>
 
 using namespace std;
+
+mutex m1;
+condition_variable cv1, cv2;
 
 vector<int> buffer = {0, 0, 0, 0};
 
@@ -26,29 +30,53 @@ vector<int>* generateLoadOrder(){
         }
     }
 
+    this_thread::sleep_for(chrono::milliseconds(load[0]*50) + chrono::milliseconds(load[1]*70) + chrono::milliseconds(load[2]*90) + chrono::milliseconds(load[3]*110));
+
     return load;
 }
 
 vector<int>* generatePickupOrder(){
-    vector<int>* load = new vector<int>();
+    vector<int>* pickup = new vector<int>();
     int total = 0;
     srand(std::chrono::system_clock::now());
     int index = 0;
     int comp = 5;
-    bool checkZero = false;
     while(1){
-        load[i] = rand % comp;
-        if(load[i] == 0) checkZero = true;
-        total += load[i];
-        comp -= load[i];
+        pickup[i] = rand % comp;
+        total += pickup[i];
+        comp -= pickup[i];
         i++;
         if(i == 4){
-            load[i] = 5 - total;
+            pickup[i] = 5 - total;
             break;
         }
     }
 
-    return load;
+    //assign 0 to a random index and increase a random index by that value
+    int zeroIndex = rand % 3;
+    int replaceVal = pickup[zeroIndex];
+    pickup[zeroIndex] = 0;
+    int replaceIndex = rand % 3;
+    pickup[replaceIndex] += replaceVal;
+
+    this_thread::sleep_for(chrono::milliseconds(pickup[0]*80) + chrono::milliseconds(pickup[1]*100) + chrono::milliseconds(pickup[2]*120) + chrono::milliseconds(pickup[3]*140));
+
+    return pickup;
+}
+
+void PartWorker(int i){
+    while(1){
+        vector<int>* loadOrder = generateLoadOrder();
+        unique_lock<mutex> lock(m1);
+
+    }
+}
+
+void ProductWorker(int i){
+    while(1){
+        vector<int>* pickupOrder = generatePickupOrder();
+        unique_lock<mutex> lock(m1);
+    }
 }
 
 
