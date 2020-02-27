@@ -178,6 +178,8 @@ void ProductWorker(int i){
 				this_thread::sleep_for(chrono::microseconds(assembleTime));
 			}
 
+			//PRINT STUFF
+
 			cv1.notify_one();
 			cv2.notify_all();
 		}
