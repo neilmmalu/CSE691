@@ -30,7 +30,9 @@ vector<int>* generateLoadOrder(){
         }
     }
 
-    this_thread::sleep_for(chrono::microseconds(load[0]*50) + chrono::microseconds(load[1]*70) + chrono::microseconds(load[2]*90) + chrono::microseconds(load[3]*110));
+    int generateTime = load[0]*50 + load[1]*70 + load[2]*90 + load[3]*110;
+
+    this_thread::sleep_for(chrono::microseconds(generateTime));
 
     return load;
 }
@@ -59,7 +61,9 @@ vector<int>* generatePickupOrder(){
     int replaceIndex = rand % 3;
     pickup[replaceIndex] += replaceVal;
 
-    this_thread::sleep_for(chrono::microseconds(pickup[0]*80) + chrono::microseconds(pickup[1]*100) + chrono::microseconds(pickup[2]*120) + chrono::microseconds(pickup[3]*140));
+    int produceTime = pickup[0]*80 + pickup[1]*100 + pickup[2]*120 + pickup[3]*140;
+
+    this_thread::sleep_for(chrono::microseconds(produceTime));
 
     return pickup;
 }
@@ -69,6 +73,44 @@ void PartWorker(int i){
         vector<int>* loadOrder = generateLoadOrder();
         unique_lock<mutex> lock(m1);
 
+        int moveTime = 0;
+        this_thread::sleep_for(chrono::microseconds(moveTime));
+
+        if(cv1.wait_for(lock, chrono::microseconds(600))){
+            if(loadOrder[0] + buffer[0] <= 6){
+                buffer[0] += loadOrder[0];
+                moveTime += loadOrder[0]*20;
+                loadOrder[0] = 0;
+            }
+
+            if(loadOrder[1] + buffer[1] <= 5){
+                buffer[1] += loadOrder[1];
+                moveTime += loadOrder[1]*30;
+                loadOrder[1] = 0;
+            }
+
+            if(loadOrder[2] + buffer[2] <= 4){
+                buffer[2] += loadOrder[2];
+                moveTime += loadOrder[2]*40;
+                loadOrder[2] = 0;
+            }
+
+            if(loadOrder[3] + buffer[3] <= 3){
+                buffer[3] += loadOrder[3];
+                moveTime += loadOrder[3]*50;
+                loadOrder[3] = 0;
+            }
+
+            this_thread::sleep_for(chrono::microseconds(moveTime));
+
+        }
+        else{
+            delete loadOrder;
+            this_thread::sleep_for(chrono::microseconds(moveTime));
+        }
+
+        cv2.notify_one();
+
     }
 }
 
@@ -76,6 +118,45 @@ void ProductWorker(int i){
     while(1){
         vector<int>* pickupOrder = generatePickupOrder();
         unique_lock<mutex> lock(m1);
+
+        int moveTime = 0;
+        
+        //wait for the lock until timeout
+        if(cv2.wait_for(lock, chrono::microseconds(1000))){
+            if(buffer[0] > pickupOrder[0]){
+                buffer[0] -= pickupOrder[0];
+                moveTime += pickupOrder[0]*20;
+                pickupOrder[0] = 0;
+            }
+
+            if(buffer[1] > pickupOrder[1]){
+                buffer[1] -= pickupOrder[1];
+                moveTime += pickupOrder[1]*30;
+                pickupOrder[1] = 0;
+            }
+
+            if(buffer[2] > pickupOrder[2]){
+                buffer[2] -= pickupOrder[2];
+                moveTime += pickupOrder[2]*40;
+                pickupOrder[2] = 0;
+            }
+
+            if(buffer[3] > pickupOrder[3]){
+                buffer[3] -= pickupOrder[3];
+                moveTime += pickupOrder[3]*50;
+                pickupOrder[3] = 0;
+            }
+
+            this_thread::sleep_for(chrono::microseconds(moveTime));
+
+        }
+        else{
+            delete loadOrder;
+            this_thread::sleep_for(chrono::microseconds(moveTime));
+        }
+
+        cv2.notify_one();
+
     }
 }
 
