@@ -19,14 +19,20 @@ time_t seed = time(0);
 
 
 
-vector<int> buffer {0, 0, 0, 0};
+vector<int> buffer { 0, 0, 0, 0 };
 
 vector<int> fidelity{ 0, 0, 0, 0 };
 
-bool fitBuffer(vector<int> loadOrder) {
+bool pushBuffer(vector<int> loadOrder) {
 	if(loadOrder != fidelity)
 		return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
 	return false;
+}
+
+bool pullBuffer(vector<int> pickupOrder) {
+	if (pickupOrder != fidelity) {
+		return pickupOrder[0] <= buffer[0] || pickupOrder[1] <= buffer[1] || pickupOrder[2] <= buffer[2] || pickupOrder[3] <= buffer[3];
+	}
 }
 
 vector<int> generateLoadOrder(){
@@ -77,9 +83,6 @@ vector<int> generatePickupOrder(){
     int replaceIndex = rand() % 3;
     pickup[replaceIndex] += replaceVal;
 
-    //int produceTime = pickup[0]*80 + pickup[1]*100 + pickup[2]*120 + pickup[3]*140;
-
-    //this_thread::sleep_for(chrono::microseconds(produceTime));
 
     return pickup;
 }
@@ -99,7 +102,7 @@ void PartWorker(int i){
         unique_lock<mutex> lock(m1);
 
 
-		if (cv1.wait_until(lock, chrono::system_clock::now() + chrono::microseconds(timeOut), [loadOrder] { fitBuffer(loadOrder); })) {
+		if (cv1.wait_until(lock, chrono::system_clock::now() + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
 
 
 			if (loadOrder[0] + buffer[0] <= 6) {
@@ -139,13 +142,47 @@ void PartWorker(int i){
 
 void ProductWorker(int i){
     while(1){
+		int timeOut = PRODUCT_TIMEOUT;
         vector<int> pickupOrder = generatePickupOrder();
 
-        
-		//unique_lock<mutex> lock(m1);
+		unique_lock<mutex> lock(m1);
+		if (cv2.wait_until(lock, chrono::microseconds(timeOut) + chrono::system_clock::now(), [pickupOrder] { return pullBuffer(pickupOrder); })) {
+			if (buffer[0] >= pickupOrder[0]) {
+				buffer[0] -= pickupOrder[0];
+				pickupOrder[0] = 0;
+			}
 
-        
+			if (buffer[1] >= pickupOrder[1]) {
+				buffer[1] -= pickupOrder[1];
+				pickupOrder[1] = 0;
+			}
 
+			if (buffer[2] >= pickupOrder[2]) {
+				buffer[2] -= pickupOrder[2];
+				pickupOrder[2] = 0;
+			}
+
+			if (buffer[3] >= pickupOrder[3]) {
+				buffer[3] -= pickupOrder[3];
+				pickupOrder[3] = 0;
+			}
+		}
+		else {
+			//Discard or move to assembly
+
+			int moveTime = pickupOrder[0] * 20 + pickupOrder[1] * 30 + pickupOrder[2] * 40 + pickupOrder[3] * 50;
+			this_thread::sleep_for(chrono::microseconds(moveTime));
+			if (pickupOrder == fidelity) {
+				//assemble
+				int assembleTime = pickupOrder[0] * 80 + pickupOrder[1] * 100 + pickupOrder[2] * 120 + pickupOrder[3] * 140;
+				this_thread::sleep_for(chrono::microseconds(assembleTime));
+			}
+
+			cv1.notify_one();
+			cv2.notify_all();
+		}
+		
+		cv1.notify_one();
     }
 }
 
