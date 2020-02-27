@@ -9,6 +9,9 @@
 
 using namespace std;
 
+#define PART_TIMEOUT 3000;
+#define PRODUCT_TIMEOUT 6000;
+
 mutex m1;
 condition_variable cv1, cv2;
 
@@ -19,6 +22,12 @@ time_t seed = time(0);
 vector<int> buffer {0, 0, 0, 0};
 
 vector<int> fidelity{ 0, 0, 0, 0 };
+
+bool fitBuffer(vector<int> loadOrder) {
+	if(loadOrder != fidelity)
+		return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
+	return false;
+}
 
 vector<int> generateLoadOrder(){
 	vector<int> load{0, 0, 0, 0};
@@ -49,7 +58,7 @@ vector<int> generatePickupOrder(){
     int total = 0;
 	srand(seed++);
     int i = 0;
-    int comp = 5;
+    int comp = 3;
     while(1){
         pickup[i] = rand() % comp;
         total += pickup[i];
@@ -68,15 +77,16 @@ vector<int> generatePickupOrder(){
     int replaceIndex = rand() % 3;
     pickup[replaceIndex] += replaceVal;
 
-    int produceTime = pickup[0]*80 + pickup[1]*100 + pickup[2]*120 + pickup[3]*140;
+    //int produceTime = pickup[0]*80 + pickup[1]*100 + pickup[2]*120 + pickup[3]*140;
 
-    this_thread::sleep_for(chrono::microseconds(produceTime));
+    //this_thread::sleep_for(chrono::microseconds(produceTime));
 
     return pickup;
 }
 
 void PartWorker(int i){
     while(1){
+		int timeOut = PART_TIMEOUT;
         vector<int> loadOrder = generateLoadOrder();
 		
 		//Generate time done
@@ -89,9 +99,8 @@ void PartWorker(int i){
         unique_lock<mutex> lock(m1);
 
 
-		if (cv1.wait_until(lock, chrono::system_clock::now() + chrono::microseconds(600), [loadOrder] { 
-			return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
-			})) {
+		if (cv1.wait_until(lock, chrono::system_clock::now() + chrono::microseconds(timeOut), [loadOrder] { fitBuffer(loadOrder); })) {
+
 
 			if (loadOrder[0] + buffer[0] <= 6) {
 				buffer[0] += loadOrder[0];
@@ -112,14 +121,19 @@ void PartWorker(int i){
 				buffer[3] += loadOrder[3];
 				loadOrder[3] = 0;
 			}
+
 		}
 		else {
 			//Discard?
+			//Either load order is {0,0,0,0} or timeout occurred. 
+			//PRINT STUFF
+			moveTime = loadOrder[0] * 20 + loadOrder[1] * 30 + loadOrder[2] * 40 + loadOrder[3] * 50;
+			this_thread::sleep_for(chrono::microseconds(moveTime));
+			cv1.notify_all();
+			cv2.notify_one();
 		}
 		cv2.notify_one();
 		
-        
-
     }
 }
 
