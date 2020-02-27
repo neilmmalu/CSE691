@@ -21,7 +21,7 @@ time_t seed = time(0);
 
 vector<int> buffer { 0, 0, 0, 0 };
 
-vector<int> fidelity{ 0, 0, 0, 0 };
+vector<int> fidelity { 0, 0, 0, 0 };
 
 bool pushBuffer(vector<int> loadOrder) {
 	if(loadOrder != fidelity)
@@ -127,6 +127,7 @@ void PartWorker(int i){
 
 		}
 		else {
+            //check if can be completed
 			//Discard?
 			//Either load order is {0,0,0,0} or timeout occurred. 
 			//PRINT STUFF
