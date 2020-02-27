@@ -17,22 +17,24 @@ condition_variable cv1, cv2;
 
 time_t seed = time(0);
 
-
-
 vector<int> buffer { 0, 0, 0, 0 };
 
 vector<int> fidelity { 0, 0, 0, 0 };
 
 bool pushBuffer(vector<int> loadOrder) {
-	if(loadOrder != fidelity)
-		return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
-	return false;
+	return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
+}
+
+bool pushBufferFull(vector<int> loadOrder) {
+	return loadOrder[0] + buffer[0] <= 6 && loadOrder[1] + buffer[1] <= 5 && loadOrder[2] + buffer[2] <= 4 && loadOrder[3] + buffer[3] <= 3;
 }
 
 bool pullBuffer(vector<int> pickupOrder) {
-	if (pickupOrder != fidelity) {
-		return pickupOrder[0] <= buffer[0] || pickupOrder[1] <= buffer[1] || pickupOrder[2] <= buffer[2] || pickupOrder[3] <= buffer[3];
-	}
+	return pickupOrder[0] <= buffer[0] || pickupOrder[1] <= buffer[1] || pickupOrder[2] <= buffer[2] || pickupOrder[3] <= buffer[3];
+}
+
+bool pullBufferFull(vector<int> pickupOrder) {
+	return pickupOrder[0] <= buffer[0] && pickupOrder[1] <= buffer[1] && pickupOrder[2] <= buffer[2] && pickupOrder[3] <= buffer[3];
 }
 
 vector<int> generateLoadOrder(){
@@ -83,7 +85,6 @@ vector<int> generatePickupOrder(){
     int replaceIndex = rand() % 3;
     pickup[replaceIndex] += replaceVal;
 
-
     return pickup;
 }
 
@@ -101,9 +102,11 @@ void PartWorker(int i){
 		//compete for the lock
         unique_lock<mutex> lock(m1);
 
-
-		if (cv1.wait_until(lock, chrono::system_clock::now() + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
-
+		chrono::system_clock::time_point start = chrono::system_clock::now();
+		if (cv1.wait_until(lock, start + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
+			//Will enter here if predicate is true
+			//If predicate is false, will sleep
+			//If can fit into buffer, will try to fit as much as possible
 
 			if (loadOrder[0] + buffer[0] <= 6) {
 				buffer[0] += loadOrder[0];
@@ -125,14 +128,39 @@ void PartWorker(int i){
 				loadOrder[3] = 0;
 			}
 
+			//check if load order is empty
+			if (loadOrder == fidelity) {
+				//In this case don't put it back to sleep
+				//Just print and go to next iteration
+
+			}
+			else {
+				//put it back to sleep
+			}
+
 		}
 		else {
-            //check if can be completed
-			//Discard?
-			//Either load order is {0,0,0,0} or timeout occurred. 
-			//PRINT STUFF
-			moveTime = loadOrder[0] * 20 + loadOrder[1] * 30 + loadOrder[2] * 40 + loadOrder[3] * 50;
-			this_thread::sleep_for(chrono::microseconds(moveTime));
+			//Timeout condition
+			//Check if buffer can fit entire remaining load
+			//If not then discard the entire thing
+			if (pushBufferFull(loadOrder)) {
+				buffer[0] += loadOrder[0];
+				loadOrder[0] = 0;
+				buffer[1] += loadOrder[1];
+				loadOrder[1] = 0;
+				buffer[2] += loadOrder[2];
+				loadOrder[2] = 0;
+				buffer[3] += loadOrder[3];
+				loadOrder[3] = 0;
+			}
+			else {
+				//discard
+				moveTime = loadOrder[0] * 20 + loadOrder[1] * 30 + loadOrder[2] * 40 + loadOrder[3] * 50;
+				this_thread::sleep_for(chrono::microseconds(moveTime));
+			}
+			
+			//PRINT
+
 			cv1.notify_all();
 			cv2.notify_one();
 		}
@@ -145,9 +173,13 @@ void ProductWorker(int i){
     while(1){
 		int timeOut = PRODUCT_TIMEOUT;
         vector<int> pickupOrder = generatePickupOrder();
-
 		unique_lock<mutex> lock(m1);
-		if (cv2.wait_until(lock, chrono::microseconds(timeOut) + chrono::system_clock::now(), [pickupOrder] { return pullBuffer(pickupOrder); })) {
+
+		chrono::system_clock::time_point start = chrono::system_clock::now();
+		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); })) {
+			//Will enter here if predicate is true
+			//If predicate is false, will sleep
+			//If can pull from buffer, will try to pull as much as possible
 			if (buffer[0] >= pickupOrder[0]) {
 				buffer[0] -= pickupOrder[0];
 				pickupOrder[0] = 0;
@@ -167,16 +199,38 @@ void ProductWorker(int i){
 				buffer[3] -= pickupOrder[3];
 				pickupOrder[3] = 0;
 			}
-		}
-		else {
-			//Discard or move to assembly
 
-			int moveTime = pickupOrder[0] * 20 + pickupOrder[1] * 30 + pickupOrder[2] * 40 + pickupOrder[3] * 50;
-			this_thread::sleep_for(chrono::microseconds(moveTime));
+			//Check if pickupOrder is complete
 			if (pickupOrder == fidelity) {
-				//assemble
+				//In this case don't put it back to sleep
+				//Assemble
 				int assembleTime = pickupOrder[0] * 80 + pickupOrder[1] * 100 + pickupOrder[2] * 120 + pickupOrder[3] * 140;
 				this_thread::sleep_for(chrono::microseconds(assembleTime));
+
+				//Just print and go to next iteration
+			}
+			else {
+				//put it back to sleep
+			}
+		}
+		else {
+			//Timeout condition
+			//Check if entire order can be picked up. If yes then assemble
+			//If not then discard the picked out items
+
+			if (pullBufferFull(pickupOrder)) {
+				buffer[0] -= pickupOrder[0];
+				pickupOrder[0] = 0;
+				buffer[1] -= pickupOrder[1];
+				pickupOrder[1] = 0;
+				buffer[2] -= pickupOrder[2];
+				pickupOrder[2] = 0;
+				buffer[3] -= pickupOrder[3];
+				pickupOrder[3] = 0;
+			}
+			else {
+				int moveTime = pickupOrder[0] * 20 + pickupOrder[1] * 30 + pickupOrder[2] * 40 + pickupOrder[3] * 50;
+				this_thread::sleep_for(chrono::microseconds(moveTime));
 			}
 
 			//PRINT STUFF
