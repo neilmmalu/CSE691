@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <thread>
 #include <mutex>
 #include <stdlib.h>
@@ -67,13 +68,10 @@ bool pullBuffer(vector<int> pickupOrder) {
 //}
 
 vector<int> generateLoadOrder(){
-    
-
 	srand(seed++);
 	vector<int> load = partPossibilities[rand() % (partPossibilities.size() - 1)];
 
     int generateTime = load[0]*50 + load[1]*70 + load[2]*90 + load[3]*110;
-
     this_thread::sleep_for(chrono::microseconds(generateTime));
 
     return load;
@@ -369,7 +367,9 @@ int main(){
     const int m = 20, n = 16; //m: number of Part Workers
     //n: number of Product Workers
     //m>n
-	
+	ofstream out("log.txt");
+    auto* outbuff = cout.rdbuf();
+    cout.rdbuf(out.rdbuf());
 	
     thread partW[m];
     thread prodW[n];
