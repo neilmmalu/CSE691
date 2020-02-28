@@ -21,6 +21,9 @@ vector<int> buffer { 0, 0, 0, 0 };
 
 vector<int> fidelity { 0, 0, 0, 0 };
 
+chrono::system_clock::time_point prog_start = chrono::system_clock::now();
+
+
 bool pushBuffer(vector<int> loadOrder) {
 	return loadOrder[0] + buffer[0] <= 6 || loadOrder[1] + buffer[1] <= 5 || loadOrder[2] + buffer[2] <= 4 || loadOrder[3] + buffer[3] <= 3;
 }
@@ -103,10 +106,19 @@ void PartWorker(int i){
         unique_lock<mutex> lock(m1);
 
 		chrono::system_clock::time_point start = chrono::system_clock::now();
+		wait:
 		if (cv1.wait_until(lock, start + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can fit into buffer, will try to fit as much as possible
+
+			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(chrono::system_clock::now() - prog_start).count() << "us" << endl;
+			cout << "Part Worker ID: " << i << endl;
+			cout << "Iteration: " << endl;
+			cout << "Status: New Load Order" << endl;
+			cout << "Accumulated Wait Time: " << chrono::duration_cast<chrono::microseconds>(chrono::system_clock::now() - start).count() << "us" << endl;
+			cout << "Buffer State: (" << buffer[0] << ", " << buffer[1] << ", " << buffer[2] << ", " << buffer[3] << ")" << endl;
+			cout << "Load Order: (" << loadOrder[0] << ", " << loadOrder[1] << ", " << loadOrder[2] << ", " << loadOrder[3] << ")" << endl;
 
 			if (loadOrder[0] + buffer[0] <= 6) {
 				buffer[0] += loadOrder[0];
@@ -128,15 +140,15 @@ void PartWorker(int i){
 				loadOrder[3] = 0;
 			}
 
-			//check if load order is empty
-			if (loadOrder == fidelity) {
-				//In this case don't put it back to sleep
-				//Just print and go to next iteration
+			cout << "Updated Buffer State: (" << buffer[0] << ", " << buffer[1] << ", " << buffer[2] << ", " << buffer[3] << ")" << endl;
+			cout << "Updated Load Order: (" << loadOrder[0] << ", " << loadOrder[1] << ", " << loadOrder[2] << ", " << loadOrder[3] << ")" << endl;
 
-			}
-			else {
+			if(loadOrder != fidelity){
 				//put it back to sleep
+				cv2.notify_one();
+				goto wait;
 			}
+			//If loadOrder is empty, just break and move on to next iteration
 
 		}
 		else {
@@ -176,6 +188,7 @@ void ProductWorker(int i){
 		unique_lock<mutex> lock(m1);
 
 		chrono::system_clock::time_point start = chrono::system_clock::now();
+		wait:
 		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); }))
         {
 			//Will enter here if predicate is true
@@ -212,6 +225,8 @@ void ProductWorker(int i){
 			}
 			else {
 				//put it back to sleep
+				cv1.notify_all();
+				goto wait;
 			}
 		}
 		else {
@@ -251,7 +266,7 @@ int main(){
     const int m = 20, n = 16; //m: number of Part Workers
     //n: number of Product Workers
     //m>n
-
+	
 	
     thread partW[m];
     thread prodW[n];
