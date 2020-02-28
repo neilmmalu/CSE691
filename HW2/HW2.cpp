@@ -176,7 +176,8 @@ void ProductWorker(int i){
 		unique_lock<mutex> lock(m1);
 
 		chrono::system_clock::time_point start = chrono::system_clock::now();
-		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); })) {
+		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); }))
+        {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can pull from buffer, will try to pull as much as possible
