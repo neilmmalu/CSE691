@@ -111,7 +111,7 @@ void PartWorker(int i){
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can fit into buffer, will try to fit as much as possible
-
+            
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(chrono::system_clock::now() - prog_start).count() << "us" << endl;
 			cout << "Part Worker ID: " << i << endl;
 			cout << "Iteration: " << endl;
