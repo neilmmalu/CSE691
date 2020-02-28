@@ -21,6 +21,8 @@ time_t seed = time(0);
 
 vector<int> buffer { 0, 0, 0, 0 };
 
+vector<int> capacity { 6, 5, 4, 3 };
+
 vector<int> fidelity { 0, 0, 0, 0 };
 
 int TOTAL_PROD = 0;
@@ -155,6 +157,7 @@ void PartWorker(int i){
 			//Timeout condition
 			//Check if buffer can fit entire remaining load
 			//If not then discard the entire thing
+            //This means that buffer might be full, or lots of part workers
 
 			chrono::system_clock::time_point curr_time = chrono::system_clock::now();
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(curr_time - prog_start).count() << "us" << endl;
@@ -212,7 +215,8 @@ void PartWorker(int i){
 		cv1.notify_one();
 		iteration++;
     }
-	cv2.notify_one();
+    cv2.notify_all();
+	cv1.notify_all();
 }
 
 void ProductWorker(int i){
@@ -357,7 +361,8 @@ void ProductWorker(int i){
 		cv2.notify_one();
 		iteration++;
     }
-	cv1.notify_one();
+	cv1.notify_all();
+    cv2.notify_all();
 }
 
 
