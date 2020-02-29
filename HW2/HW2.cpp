@@ -1,3 +1,12 @@
+//HW2
+//Name: Neil Malu
+//SU NetID: nemalu SUID: 635692900
+
+/*
+In this implementation, once timeout occurs, check if its possible to partially add/remove any parts
+Perform partial implementation and discard the rest
+*/
+
 #include <iostream>
 #include <fstream>
 #include <thread>

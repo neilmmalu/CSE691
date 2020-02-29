@@ -1,3038 +1,2778 @@
-Current Time: 785us
+Current Time: 22218us
+Product Worker ID: 11
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 17671us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 1, 3)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 1, 3)
+Total Completed Products: 0
+
+Current Time: 39883us
+Product Worker ID: 9
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 35488us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 0, 1, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 0, 1, 2)
+Total Completed Products: 0
+
+Current Time: 55959us
+Product Worker ID: 1
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 52144us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 2, 1, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 2, 1, 0)
+Total Completed Products: 0
+
+Current Time: 70945us
+Product Worker ID: 3
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 66986us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 0, 2, 1)
+Total Completed Products: 0
+
+Current Time: 86885us
+Product Worker ID: 5
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 82799us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 3, 1)
+Total Completed Products: 0
+
+Current Time: 102379us
+Product Worker ID: 7
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 98171us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 1, 0, 1)
+Total Completed Products: 0
+
+Current Time: 117489us
+Product Worker ID: 8
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 113195us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 3, 1)
+Total Completed Products: 0
+
+Current Time: 133520us
+Product Worker ID: 12
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 128900us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 0, 1, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 0, 1, 2)
+Total Completed Products: 0
+
+Current Time: 149058us
+Product Worker ID: 15
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 144192us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 3, 1, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 3, 1, 0)
+Total Completed Products: 0
+
+Current Time: 164944us
+Product Worker ID: 14
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 160170us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 1, 3)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 1, 3)
+Total Completed Products: 0
+
+Current Time: 180926us
 Part Worker ID: 0
 Iteration: 0
 Status: New Load Order
-Accumulated Wait Time: 1us
+Accumulated Wait Time: 16us
 Buffer State: (0, 0, 0, 0)
-Load Order: (3, 0, 0, 1)
-Updated Buffer State: (3, 0, 0, 1)
+Load Order: (1, 2, 0, 1)
+Updated Buffer State: (1, 2, 0, 1)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 936us
-Product Worker ID: 1
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 603us
-Buffer State: (3, 0, 0, 1)
-Pickup Order: (1, 0, 3, 1)
-Updated Buffer State: (2, 0, 0, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 0
-
-Current Time: 1024us
-Part Worker ID: 9
+Current Time: 185969us
+Part Worker ID: 2
 Iteration: 0
 Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (2, 0, 0, 0)
-Load Order: (2, 0, 1, 1)
-Updated Buffer State: (4, 0, 1, 1)
+Accumulated Wait Time: 14us
+Buffer State: (1, 2, 0, 1)
+Load Order: (0, 0, 4, 0)
+Updated Buffer State: (1, 2, 4, 1)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 1114us
-Product Worker ID: 3
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 760us
-Buffer State: (4, 0, 1, 1)
-Pickup Order: (2, 1, 2, 0)
-Updated Buffer State: (2, 0, 1, 1)
-Updated Product Order: (0, 1, 2, 0)
-Total Completed Products: 0
-
-Current Time: 1193us
-Part Worker ID: 6
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 0, 1, 1)
-Load Order: (2, 1, 1, 0)
-Updated Buffer State: (4, 1, 2, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 1262us
-Product Worker ID: 0
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 896us
-Buffer State: (4, 1, 2, 1)
-Pickup Order: (2, 1, 0, 2)
-Updated Buffer State: (2, 0, 2, 1)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 0
-
-Current Time: 1357us
+Current Time: 190546us
 Part Worker ID: 4
 Iteration: 0
 Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (2, 0, 2, 1)
-Load Order: (1, 1, 0, 2)
-Updated Buffer State: (3, 1, 2, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 1443us
-Product Worker ID: 4
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1070us
-Buffer State: (3, 1, 2, 3)
-Pickup Order: (1, 1, 0, 3)
-Updated Buffer State: (2, 0, 2, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 1
-
-Current Time: 1518us
-Product Worker ID: 4
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 0, 2, 0)
-Pickup Order: (1, 0, 1, 3)
-Updated Buffer State: (1, 0, 1, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 1
-
-Current Time: 1593us
-Part Worker ID: 3
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 4us
-Buffer State: (1, 0, 1, 0)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (2, 1, 2, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 1680us
-Product Worker ID: 5
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1262us
-Buffer State: (2, 1, 2, 1)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (2, 1, 1, 1)
-Updated Product Order: (0, 2, 0, 2)
-Total Completed Products: 1
-
-Current Time: 1756us
-Part Worker ID: 7
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 1, 1, 1)
-Load Order: (1, 0, 1, 2)
-Updated Buffer State: (3, 1, 2, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 1821us
-Product Worker ID: 6
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1374us
-Buffer State: (3, 1, 2, 3)
-Pickup Order: (2, 2, 0, 1)
-Updated Buffer State: (1, 1, 2, 2)
-Updated Product Order: (0, 2, 0, 0)
-Total Completed Products: 1
-
-Current Time: 1910us
-Part Worker ID: 2
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 1, 2, 2)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (2, 2, 4, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 1981us
-Product Worker ID: 7
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1511us
-Buffer State: (2, 2, 4, 2)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (1, 2, 4, 1)
-Updated Product Order: (0, 3, 0, 0)
-Total Completed Products: 1
-
-Current Time: 2052us
-Part Worker ID: 10
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
+Accumulated Wait Time: 13us
 Buffer State: (1, 2, 4, 1)
-Load Order: (1, 0, 0, 3)
-Updated Buffer State: (2, 2, 4, 1)
-Updated Load Order: (0, 0, 0, 3)
-
-Current Time: 2117us
-Product Worker ID: 8
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1635us
-Buffer State: (2, 2, 4, 1)
-Pickup Order: (0, 3, 1, 1)
-Updated Buffer State: (2, 2, 3, 0)
-Updated Product Order: (0, 3, 0, 0)
-Total Completed Products: 1
-
-Current Time: 2224us
-Part Worker ID: 1
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 2, 3, 0)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (3, 3, 3, 0)
+Load Order: (0, 1, 2, 1)
+Updated Buffer State: (1, 3, 4, 2)
 Updated Load Order: (0, 0, 2, 0)
 
-Current Time: 2280us
-Product Worker ID: 9
+Current Time: 196132us
+Part Worker ID: 4
 Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1763us
-Buffer State: (3, 3, 3, 0)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (0, 3, 2, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 1
-
-Current Time: 2372us
-Part Worker ID: 13
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 3, 2, 0)
-Load Order: (0, 1, 1, 2)
-Updated Buffer State: (0, 4, 3, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 2433us
-Part Worker ID: 2
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (0, 4, 3, 2)
-Load Order: (2, 2, 0, 0)
-Updated Buffer State: (2, 4, 3, 2)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 2505us
-Product Worker ID: 11
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 1906us
-Buffer State: (2, 4, 3, 2)
-Pickup Order: (1, 0, 3, 1)
-Updated Buffer State: (1, 4, 0, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 2
-
-Current Time: 2566us
-Product Worker ID: 11
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (1, 4, 0, 1)
-Pickup Order: (0, 1, 1, 3)
-Updated Buffer State: (1, 3, 0, 1)
-Updated Product Order: (0, 0, 1, 3)
-Total Completed Products: 2
-
-Current Time: 2624us
-Part Worker ID: 14
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 261us
-Buffer State: (1, 3, 0, 1)
-Load Order: (0, 0, 4, 0)
-Updated Buffer State: (1, 3, 4, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 2684us
-Product Worker ID: 2
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 2294us
-Buffer State: (1, 3, 4, 1)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (0, 0, 4, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 3
-
-Current Time: 2761us
-Part Worker ID: 8
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 0, 4, 0)
-Load Order: (0, 4, 0, 0)
-Updated Buffer State: (0, 4, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 2832us
-Product Worker ID: 15
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 2151us
-Buffer State: (0, 4, 4, 0)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (0, 2, 3, 0)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 3
-
-Current Time: 2909us
-Part Worker ID: 6
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (0, 2, 3, 0)
-Load Order: (0, 2, 2, 0)
-Updated Buffer State: (0, 4, 3, 0)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5598us
+Buffer State: (1, 3, 4, 2)
+Load Order: (0, 0, 2, 0)
+Updated Buffer State: (1, 3, 4, 2)
 Updated Load Order: (0, 0, 2, 0)
 
-Current Time: 2979us
-Product Worker ID: 1
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 2646us
-Buffer State: (0, 4, 3, 0)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (0, 4, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 4
-
-Current Time: 3034us
-Product Worker ID: 1
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 4, 0, 0)
-Pickup Order: (1, 1, 0, 3)
-Updated Buffer State: (0, 3, 0, 0)
-Updated Product Order: (1, 0, 0, 3)
-Total Completed Products: 4
-
-Current Time: 3090us
+Current Time: 211475us
 Part Worker ID: 12
 Iteration: 0
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 3, 0, 0)
-Load Order: (2, 0, 0, 2)
-Updated Buffer State: (2, 3, 0, 2)
+Accumulated Wait Time: 13us
+Buffer State: (1, 3, 4, 2)
+Load Order: (3, 0, 1, 0)
+Updated Buffer State: (4, 3, 4, 2)
+Updated Load Order: (0, 0, 1, 0)
+
+Current Time: 216429us
+Part Worker ID: 12
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4967us
+Buffer State: (4, 3, 4, 2)
+Load Order: (0, 0, 1, 0)
+Updated Buffer State: (4, 3, 4, 2)
+Updated Load Order: (0, 0, 1, 0)
+
+Current Time: 227383us
+Part Worker ID: 10
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 13us
+Buffer State: (4, 3, 4, 2)
+Load Order: (1, 1, 0, 2)
+Updated Buffer State: (5, 4, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 232122us
+Part Worker ID: 10
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4751us
+Buffer State: (5, 4, 4, 2)
+Load Order: (0, 0, 0, 2)
+Updated Buffer State: (5, 4, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 242889us
+Part Worker ID: 8
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 14us
+Buffer State: (5, 4, 4, 2)
+Load Order: (0, 3, 0, 1)
+Updated Buffer State: (5, 4, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 248143us
+Part Worker ID: 8
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5268us
+Buffer State: (5, 4, 4, 3)
+Load Order: (0, 3, 0, 0)
+Updated Buffer State: (5, 4, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 258268us
+Part Worker ID: 9
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 14us
+Buffer State: (5, 4, 4, 3)
+Load Order: (0, 1, 1, 2)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 263125us
+Part Worker ID: 9
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4871us
+Buffer State: (5, 5, 4, 3)
+Load Order: (0, 0, 1, 2)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 274301us
+Part Worker ID: 5
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 12us
+Buffer State: (5, 5, 4, 3)
+Load Order: (1, 1, 1, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 1, 1, 1)
+
+Current Time: 279609us
+Part Worker ID: 5
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5321us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 1, 1, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 1, 1, 1)
+
+Current Time: 289852us
+Product Worker ID: 11
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 15us
+Buffer State: (6, 5, 4, 3)
+Pickup Order: (1, 1, 0, 3)
+Updated Buffer State: (5, 4, 4, 0)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 1
+
+Current Time: 295190us
+Product Worker ID: 11
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (5, 4, 4, 0)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (4, 4, 1, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 1
+
+Current Time: 300866us
+Part Worker ID: 15
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 11197us
+Buffer State: (4, 4, 1, 0)
+Load Order: (1, 0, 2, 1)
+Updated Buffer State: (5, 4, 3, 1)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 3148us
-Product Worker ID: 0
+Current Time: 305624us
+Product Worker ID: 2
 Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 2782us
-Buffer State: (2, 3, 0, 2)
+Status: New Pickup Order
+Accumulated Wait Time: 301732us
+Buffer State: (5, 4, 3, 1)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (4, 4, 0, 0)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 2
+
+Current Time: 311016us
+Product Worker ID: 1
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 240088us
+Buffer State: (4, 4, 0, 0)
+Pickup Order: (2, 1, 0, 2)
+Updated Buffer State: (2, 3, 0, 0)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 2
+
+Current Time: 315997us
+Product Worker ID: 1
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 245070us
+Buffer State: (2, 3, 0, 0)
 Pickup Order: (0, 0, 0, 2)
 Updated Buffer State: (2, 3, 0, 0)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 2
+
+Current Time: 337025us
+Product Worker ID: 1
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 5us
+Buffer State: (2, 3, 0, 0)
+Pickup Order: (2, 2, 0, 1)
+Updated Buffer State: (0, 1, 0, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 2
+
+Current Time: 342992us
+Product Worker ID: 3
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 256124us
+Buffer State: (0, 1, 0, 0)
+Pickup Order: (2, 2, 1, 0)
+Updated Buffer State: (0, 1, 0, 0)
+Updated Product Order: (2, 2, 1, 0)
+Total Completed Products: 2
+
+Current Time: 352693us
+Product Worker ID: 3
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 5us
+Buffer State: (0, 1, 0, 0)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 0, 0, 1)
+Total Completed Products: 2
+
+Current Time: 359651us
+Product Worker ID: 3
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6963us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (3, 0, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 0, 0, 1)
+Total Completed Products: 2
+
+Current Time: 368521us
+Product Worker ID: 5
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 266168us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 1, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 1, 3, 1)
+Total Completed Products: 2
+
+Current Time: 384287us
+Product Worker ID: 7
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 266827us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 3, 1, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 3, 1, 1)
+Total Completed Products: 2
+
+Current Time: 399924us
+Product Worker ID: 13
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 395209us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (3, 0, 1, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 0, 1, 1)
+Total Completed Products: 2
+
+Current Time: 415117us
+Part Worker ID: 6
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 14us
+Buffer State: (0, 0, 0, 0)
+Load Order: (2, 0, 1, 1)
+Updated Buffer State: (2, 0, 1, 1)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 420266us
+Product Worker ID: 14
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 13us
+Buffer State: (2, 0, 1, 1)
+Pickup Order: (2, 2, 1, 0)
+Updated Buffer State: (0, 0, 0, 1)
+Updated Product Order: (0, 2, 0, 0)
+Total Completed Products: 2
+
+Current Time: 426025us
+Part Worker ID: 0
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 11us
+Buffer State: (0, 0, 0, 1)
+Load Order: (0, 0, 1, 3)
+Updated Buffer State: (0, 0, 1, 1)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 430670us
+Part Worker ID: 0
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4655us
+Buffer State: (0, 0, 1, 1)
+Load Order: (0, 0, 0, 3)
+Updated Buffer State: (0, 0, 1, 1)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 445937us
+Part Worker ID: 2
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 13us
+Buffer State: (0, 0, 1, 1)
+Load Order: (0, 3, 0, 1)
+Updated Buffer State: (0, 3, 1, 2)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 451347us
+Part Worker ID: 4
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 12us
+Buffer State: (0, 3, 1, 2)
+Load Order: (0, 2, 2, 0)
+Updated Buffer State: (0, 5, 3, 2)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 456550us
+Part Worker ID: 3
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 213793us
+Buffer State: (0, 5, 3, 2)
+Load Order: (0, 2, 0, 2)
+Updated Buffer State: (0, 5, 3, 2)
+Updated Load Order: (0, 2, 0, 2)
+
+Current Time: 477449us
+Part Worker ID: 1
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 234631us
+Buffer State: (0, 5, 3, 2)
+Load Order: (3, 0, 1, 0)
+Updated Buffer State: (3, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 483163us
+Part Worker ID: 10
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 13us
+Buffer State: (3, 5, 4, 2)
+Load Order: (1, 0, 0, 3)
+Updated Buffer State: (4, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 488257us
+Part Worker ID: 10
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5107us
+Buffer State: (4, 5, 4, 2)
+Load Order: (0, 0, 0, 3)
+Updated Buffer State: (4, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 509117us
+Part Worker ID: 19
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 234925us
+Buffer State: (4, 5, 4, 2)
+Load Order: (0, 0, 0, 4)
+Updated Buffer State: (4, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 4)
+
+Current Time: 524647us
+Part Worker ID: 16
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 250407us
+Buffer State: (4, 5, 4, 2)
+Load Order: (2, 0, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 534298us
+Part Worker ID: 16
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 260059us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 0, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 556567us
+Part Worker ID: 14
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 282469us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 1, 0, 3)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 1, 0, 3)
+
+Current Time: 571463us
+Part Worker ID: 7
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 297316us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 0, 0, 4)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 4)
+
+Current Time: 587675us
+Product Worker ID: 0
+Iteration: 0
+Status: New Pickup Order
+Accumulated Wait Time: 583903us
+Buffer State: (6, 5, 4, 2)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (4, 5, 2, 1)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 3
+
+Current Time: 596905us
+Part Worker ID: 13
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 307287us
+Buffer State: (4, 5, 2, 1)
+Load Order: (0, 4, 0, 0)
+Updated Buffer State: (4, 5, 2, 1)
+Updated Load Order: (0, 4, 0, 0)
+
+Current Time: 617929us
+Part Worker ID: 18
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 328160us
+Buffer State: (4, 5, 2, 1)
+Load Order: (3, 0, 0, 1)
+Updated Buffer State: (4, 5, 2, 2)
+Updated Load Order: (3, 0, 0, 0)
+
+Current Time: 625380us
+Part Worker ID: 18
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 335611us
+Buffer State: (4, 5, 2, 2)
+Load Order: (3, 0, 0, 0)
+Updated Buffer State: (4, 5, 2, 2)
+Updated Load Order: (3, 0, 0, 0)
+
+Current Time: 633566us
+Part Worker ID: 11
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 343998us
+Buffer State: (4, 5, 2, 2)
+Load Order: (2, 0, 2, 0)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 639632us
+Part Worker ID: 17
+Iteration: 0
+Status: New Load Order
+Accumulated Wait Time: 349914us
+Buffer State: (6, 5, 4, 2)
+Load Order: (2, 1, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (2, 1, 0, 0)
+
+Current Time: 645562us
+Part Worker ID: 17
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 355844us
+Buffer State: (6, 5, 4, 3)
+Load Order: (2, 1, 0, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (2, 1, 0, 0)
+
+Current Time: 664564us
+Product Worker ID: 9
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 608623us
+Buffer State: (6, 5, 4, 3)
+Pickup Order: (1, 3, 1, 0)
+Updated Buffer State: (5, 2, 3, 3)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 4
+
+Current Time: 671419us
+Product Worker ID: 9
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (5, 2, 3, 3)
+Pickup Order: (1, 1, 0, 3)
+Updated Buffer State: (4, 1, 3, 0)
 Updated Product Order: (0, 0, 0, 0)
 Total Completed Products: 5
 
-Current Time: 3207us
-Part Worker ID: 10
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 1157us
-Buffer State: (2, 3, 0, 0)
-Load Order: (0, 0, 0, 3)
-Updated Buffer State: (2, 3, 0, 3)
-Updated Load Order: (0, 0, 0, 0)
+Current Time: 677913us
+Product Worker ID: 11
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 382730us
+Buffer State: (4, 1, 3, 0)
+Pickup Order: (0, 0, 0, 1)
+Updated Buffer State: (4, 1, 3, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 5
 
-Current Time: 3257us
-Product Worker ID: 5
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 2839us
-Buffer State: (2, 3, 0, 3)
-Pickup Order: (0, 2, 0, 2)
-Updated Buffer State: (2, 1, 0, 1)
+Current Time: 696521us
+Product Worker ID: 11
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (4, 1, 3, 0)
+Pickup Order: (2, 1, 2, 0)
+Updated Buffer State: (2, 0, 1, 0)
 Updated Product Order: (0, 0, 0, 0)
 Total Completed Products: 6
 
-Current Time: 3331us
-Product Worker ID: 5
-Iteration: 1
+Current Time: 702327us
+Product Worker ID: 11
+Iteration: 4
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 1, 0, 1)
-Pickup Order: (2, 2, 0, 1)
-Updated Buffer State: (0, 1, 0, 0)
-Updated Product Order: (0, 2, 0, 0)
+Accumulated Wait Time: 7us
+Buffer State: (2, 0, 1, 0)
+Pickup Order: (3, 0, 1, 1)
+Updated Buffer State: (2, 0, 0, 0)
+Updated Product Order: (3, 0, 0, 1)
 Total Completed Products: 6
 
-Current Time: 3385us
-Part Worker ID: 7
+Current Time: 707836us
+Part Worker ID: 15
 Iteration: 1
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 1, 0, 0)
-Load Order: (1, 1, 0, 2)
-Updated Buffer State: (1, 2, 0, 2)
+Accumulated Wait Time: 19us
+Buffer State: (2, 0, 0, 0)
+Load Order: (3, 0, 1, 0)
+Updated Buffer State: (5, 0, 1, 0)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 3437us
+Current Time: 713533us
+Product Worker ID: 4
+Iteration: 0
+Status: New Pickup Order
+Accumulated Wait Time: 709504us
+Buffer State: (5, 0, 1, 0)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (2, 0, 1, 0)
+Updated Product Order: (0, 1, 0, 1)
+Total Completed Products: 6
+
+Current Time: 719323us
+Product Worker ID: 4
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 715293us
+Buffer State: (2, 0, 1, 0)
+Pickup Order: (0, 1, 0, 1)
+Updated Buffer State: (2, 0, 1, 0)
+Updated Product Order: (0, 1, 0, 1)
+Total Completed Products: 6
+
+Current Time: 726983us
+Product Worker ID: 1
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 389963us
+Buffer State: (2, 0, 1, 0)
+Pickup Order: (0, 0, 0, 1)
+Updated Buffer State: (2, 0, 1, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 6
+
+Current Time: 742615us
+Product Worker ID: 6
+Iteration: 0
+Status: New Pickup Order
+Accumulated Wait Time: 738465us
+Buffer State: (2, 0, 1, 0)
+Pickup Order: (2, 0, 1, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 6
+
+Current Time: 748260us
+Product Worker ID: 6
+Iteration: 0
+Status: Wakeup-Timeout
+Accumulated Wait Time: 744109us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 0, 0, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 6
+
+Current Time: 758308us
 Product Worker ID: 10
 Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 2866us
-Buffer State: (1, 2, 0, 2)
-Pickup Order: (2, 0, 1, 2)
-Updated Buffer State: (1, 2, 0, 0)
-Updated Product Order: (2, 0, 1, 0)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 753835us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 1, 0, 1)
 Total Completed Products: 6
 
-Current Time: 3500us
-Part Worker ID: 19
-Iteration: 0
+Current Time: 774094us
+Product Worker ID: 3
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 405608us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 2, 2, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 2, 2, 1)
+Total Completed Products: 6
+
+Current Time: 790302us
+Product Worker ID: 5
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 406046us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 3, 1)
+Total Completed Products: 6
+
+Current Time: 805400us
+Product Worker ID: 7
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 405507us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 1, 3, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 1, 3, 0)
+Total Completed Products: 6
+
+Current Time: 826421us
+Product Worker ID: 13
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 411337us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 0, 2, 1)
+Total Completed Products: 6
+
+Current Time: 837023us
+Part Worker ID: 6
+Iteration: 1
 Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (1, 2, 0, 0)
-Load Order: (0, 2, 1, 1)
-Updated Buffer State: (1, 4, 1, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 3566us
-Product Worker ID: 8
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 3084us
-Buffer State: (1, 4, 1, 1)
-Pickup Order: (0, 3, 0, 0)
-Updated Buffer State: (1, 1, 1, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 7
-
-Current Time: 3620us
-Product Worker ID: 9
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 3103us
-Buffer State: (1, 1, 1, 1)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (1, 1, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 8
-
-Current Time: 3679us
-Product Worker ID: 11
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1114us
-Buffer State: (1, 1, 1, 0)
-Pickup Order: (0, 0, 1, 3)
-Updated Buffer State: (1, 1, 0, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 8
-
-Current Time: 3737us
-Part Worker ID: 2
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1307us
-Buffer State: (1, 1, 0, 0)
-Load Order: (0, 2, 0, 0)
+Accumulated Wait Time: 6us
+Buffer State: (0, 0, 0, 0)
+Load Order: (1, 3, 0, 0)
 Updated Buffer State: (1, 3, 0, 0)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 3787us
-Product Worker ID: 2
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1032us
+Current Time: 841354us
+Part Worker ID: 0
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 6us
 Buffer State: (1, 3, 0, 0)
-Pickup Order: (2, 1, 0, 2)
-Updated Buffer State: (1, 2, 0, 0)
-Updated Product Order: (2, 0, 0, 2)
-Total Completed Products: 8
-
-Current Time: 3845us
-Product Worker ID: 13
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 3197us
-Buffer State: (1, 2, 0, 0)
-Pickup Order: (2, 1, 0, 2)
-Updated Buffer State: (1, 1, 0, 0)
-Updated Product Order: (2, 0, 0, 2)
-Total Completed Products: 8
-
-Current Time: 3906us
-Product Worker ID: 14
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 3242us
-Buffer State: (1, 1, 0, 0)
-Pickup Order: (1, 1, 0, 3)
-Updated Buffer State: (0, 0, 0, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 8
-
-Current Time: 3966us
-Part Worker ID: 9
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 0, 0, 0)
-Load Order: (3, 0, 1, 0)
-Updated Buffer State: (3, 0, 1, 0)
+Load Order: (2, 0, 1, 1)
+Updated Buffer State: (3, 3, 1, 1)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 4027us
-Part Worker ID: 13
+Current Time: 846138us
+Part Worker ID: 12
 Iteration: 1
 Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (3, 0, 1, 0)
-Load Order: (0, 3, 1, 0)
-Updated Buffer State: (3, 3, 2, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 4080us
-Product Worker ID: 1
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1047us
-Buffer State: (3, 3, 2, 0)
-Pickup Order: (1, 0, 0, 3)
-Updated Buffer State: (2, 3, 2, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 8
-
-Current Time: 4158us
-Part Worker ID: 4
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 3, 2, 0)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (3, 4, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 4233us
-Part Worker ID: 11
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (3, 4, 4, 0)
-Load Order: (0, 0, 3, 1)
+Accumulated Wait Time: 368750us
+Buffer State: (3, 3, 1, 1)
+Load Order: (0, 1, 3, 0)
 Updated Buffer State: (3, 4, 4, 1)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 850345us
+Part Worker ID: 3
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 125us
+Buffer State: (3, 4, 4, 1)
+Load Order: (0, 0, 3, 1)
+Updated Buffer State: (3, 4, 4, 2)
 Updated Load Order: (0, 0, 3, 0)
 
-Current Time: 4298us
-Part Worker ID: 14
+Current Time: 857244us
+Part Worker ID: 3
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7023us
+Buffer State: (3, 4, 4, 2)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (3, 4, 4, 2)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 867963us
+Part Worker ID: 1
 Iteration: 1
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 4, 4, 1)
-Load Order: (2, 1, 1, 0)
-Updated Buffer State: (5, 5, 4, 1)
-Updated Load Order: (0, 0, 1, 0)
+Accumulated Wait Time: 37us
+Buffer State: (3, 4, 4, 2)
+Load Order: (0, 3, 0, 1)
+Updated Buffer State: (3, 4, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
 
-Current Time: 4368us
+Current Time: 874805us
+Part Worker ID: 1
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6880us
+Buffer State: (3, 4, 4, 3)
+Load Order: (0, 3, 0, 0)
+Updated Buffer State: (3, 4, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 883854us
+Part Worker ID: 19
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 27us
+Buffer State: (3, 4, 4, 3)
+Load Order: (0, 1, 1, 2)
+Updated Buffer State: (3, 5, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 890815us
+Part Worker ID: 19
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6988us
+Buffer State: (3, 5, 4, 3)
+Load Order: (0, 0, 1, 2)
+Updated Buffer State: (3, 5, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 899216us
+Part Worker ID: 16
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 29us
+Buffer State: (3, 5, 4, 3)
+Load Order: (1, 0, 3, 0)
+Updated Buffer State: (4, 5, 4, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 905848us
+Part Worker ID: 16
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6661us
+Buffer State: (4, 5, 4, 3)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (4, 5, 4, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 915165us
 Product Worker ID: 0
 Iteration: 1
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 5, 4, 1)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (5, 3, 3, 1)
-Updated Product Order: (0, 0, 0, 2)
+Accumulated Wait Time: 31us
+Buffer State: (4, 5, 4, 3)
+Pickup Order: (2, 0, 1, 2)
+Updated Buffer State: (2, 5, 3, 1)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 7
+
+Current Time: 922833us
+Product Worker ID: 0
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 13us
+Buffer State: (2, 5, 3, 1)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (0, 5, 1, 0)
+Updated Product Order: (0, 0, 0, 0)
 Total Completed Products: 8
 
-Current Time: 4433us
-Part Worker ID: 14
+Current Time: 930174us
+Product Worker ID: 0
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (0, 5, 1, 0)
+Pickup Order: (2, 2, 1, 0)
+Updated Buffer State: (0, 3, 0, 0)
+Updated Product Order: (2, 0, 0, 0)
+Total Completed Products: 8
+
+Current Time: 936294us
+Product Worker ID: 0
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6128us
+Buffer State: (0, 3, 0, 0)
+Pickup Order: (2, 0, 0, 0)
+Updated Buffer State: (0, 3, 0, 0)
+Updated Product Order: (2, 0, 0, 0)
+Total Completed Products: 8
+
+Current Time: 946438us
+Product Worker ID: 0
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (0, 3, 0, 0)
+Pickup Order: (0, 1, 1, 3)
+Updated Buffer State: (0, 2, 0, 0)
+Updated Product Order: (0, 0, 1, 3)
+Total Completed Products: 8
+
+Current Time: 953213us
+Product Worker ID: 0
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6783us
+Buffer State: (0, 2, 0, 0)
+Pickup Order: (0, 0, 1, 3)
+Updated Buffer State: (0, 2, 0, 0)
+Updated Product Order: (0, 0, 1, 3)
+Total Completed Products: 8
+
+Current Time: 962122us
+Part Worker ID: 13
 Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 136us
-Buffer State: (5, 3, 3, 1)
-Load Order: (0, 0, 1, 0)
-Updated Buffer State: (5, 3, 4, 1)
+Status: New Load Order
+Accumulated Wait Time: 22us
+Buffer State: (0, 2, 0, 0)
+Load Order: (2, 1, 1, 0)
+Updated Buffer State: (2, 3, 1, 0)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 4494us
-Product Worker ID: 6
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 4047us
-Buffer State: (5, 3, 4, 1)
-Pickup Order: (0, 2, 0, 0)
-Updated Buffer State: (5, 1, 4, 1)
+Current Time: 968863us
+Part Worker ID: 18
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 22us
+Buffer State: (2, 3, 1, 0)
+Load Order: (3, 0, 1, 0)
+Updated Buffer State: (5, 3, 2, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 975318us
+Part Worker ID: 9
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 26us
+Buffer State: (5, 3, 2, 0)
+Load Order: (1, 2, 0, 1)
+Updated Buffer State: (6, 5, 2, 1)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 981534us
+Product Worker ID: 9
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 17us
+Buffer State: (6, 5, 2, 1)
+Pickup Order: (1, 3, 1, 0)
+Updated Buffer State: (5, 2, 1, 1)
 Updated Product Order: (0, 0, 0, 0)
 Total Completed Products: 9
 
-Current Time: 4550us
-Product Worker ID: 2
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1795us
-Buffer State: (5, 1, 4, 1)
-Pickup Order: (2, 0, 0, 2)
-Updated Buffer State: (3, 1, 4, 1)
-Updated Product Order: (0, 0, 0, 2)
+Current Time: 987649us
+Product Worker ID: 9
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (5, 2, 1, 1)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (3, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 0)
 Total Completed Products: 9
 
-Current Time: 4617us
-Part Worker ID: 8
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 1, 4, 1)
-Load Order: (1, 0, 1, 2)
-Updated Buffer State: (4, 1, 4, 3)
-Updated Load Order: (0, 0, 1, 0)
+Current Time: 995447us
+Product Worker ID: 9
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7805us
+Buffer State: (3, 2, 1, 0)
+Pickup Order: (0, 0, 2, 0)
+Updated Buffer State: (3, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 0)
+Total Completed Products: 9
 
-Current Time: 4673us
-Part Worker ID: 16
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 1, 4, 3)
-Load Order: (0, 1, 0, 3)
-Updated Buffer State: (4, 2, 4, 3)
-Updated Load Order: (0, 0, 0, 3)
-
-Current Time: 4732us
-Product Worker ID: 8
+Current Time: 1009295us
+Product Worker ID: 2
 Iteration: 1
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 2, 4, 3)
+Accumulated Wait Time: 36us
+Buffer State: (3, 2, 1, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (1, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 1)
+Total Completed Products: 9
+
+Current Time: 1017588us
+Product Worker ID: 2
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 8328us
+Buffer State: (1, 2, 1, 0)
+Pickup Order: (0, 0, 2, 1)
+Updated Buffer State: (1, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 1)
+Total Completed Products: 9
+
+Current Time: 1040037us
+Product Worker ID: 2
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (1, 2, 1, 0)
+Pickup Order: (2, 2, 0, 1)
+Updated Buffer State: (1, 0, 1, 0)
+Updated Product Order: (2, 0, 0, 1)
+Total Completed Products: 9
+
+Current Time: 1046734us
+Product Worker ID: 2
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6706us
+Buffer State: (1, 0, 1, 0)
+Pickup Order: (2, 0, 0, 1)
+Updated Buffer State: (1, 0, 1, 0)
+Updated Product Order: (2, 0, 0, 1)
+Total Completed Products: 9
+
+Current Time: 1054884us
+Product Worker ID: 11
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 352564us
+Buffer State: (1, 0, 1, 0)
+Pickup Order: (3, 0, 0, 1)
+Updated Buffer State: (1, 0, 1, 0)
+Updated Product Order: (3, 0, 0, 1)
+Total Completed Products: 9
+
+Current Time: 1070947us
+Product Worker ID: 4
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 11us
+Buffer State: (1, 0, 1, 0)
+Pickup Order: (0, 3, 1, 1)
+Updated Buffer State: (1, 0, 0, 0)
+Updated Product Order: (0, 3, 0, 1)
+Total Completed Products: 9
+
+Current Time: 1075700us
+Part Worker ID: 15
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 9us
+Buffer State: (1, 0, 0, 0)
+Load Order: (1, 1, 1, 1)
+Updated Buffer State: (2, 1, 1, 1)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1079859us
+Product Worker ID: 1
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 9us
+Buffer State: (2, 1, 1, 1)
+Pickup Order: (1, 1, 0, 3)
+Updated Buffer State: (1, 0, 1, 1)
+Updated Product Order: (0, 0, 0, 3)
+Total Completed Products: 9
+
+Current Time: 1084356us
+Product Worker ID: 6
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (1, 0, 1, 1)
+Pickup Order: (1, 3, 1, 0)
+Updated Buffer State: (0, 0, 0, 1)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 9
+
+Current Time: 1089797us
+Product Worker ID: 10
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 315736us
+Buffer State: (0, 0, 0, 1)
+Pickup Order: (2, 1, 0, 2)
+Updated Buffer State: (0, 0, 0, 1)
+Updated Product Order: (2, 1, 0, 2)
+Total Completed Products: 9
+
+Current Time: 1102076us
+Product Worker ID: 10
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 2us
+Buffer State: (0, 0, 0, 1)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 3, 0)
+Total Completed Products: 9
+
+Current Time: 1106500us
+Product Worker ID: 3
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 316234us
+Buffer State: (0, 0, 0, 0)
 Pickup Order: (2, 2, 1, 0)
-Updated Buffer State: (2, 0, 3, 3)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 2, 1, 0)
+Total Completed Products: 9
+
+Current Time: 1117751us
+Product Worker ID: 15
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 952829us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 1, 0, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 1, 0, 2)
+Total Completed Products: 9
+
+Current Time: 1134508us
+Product Worker ID: 5
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 329138us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 1, 3, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 1, 3, 1)
+Total Completed Products: 9
+
+Current Time: 1148912us
+Product Worker ID: 14
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 728659us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 2, 0, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 2, 0, 0)
+Total Completed Products: 9
+
+Current Time: 1165179us
+Part Worker ID: 2
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 6us
+Buffer State: (0, 0, 0, 0)
+Load Order: (2, 2, 0, 0)
+Updated Buffer State: (2, 2, 0, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1170242us
+Part Worker ID: 4
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 328928us
+Buffer State: (2, 2, 0, 0)
+Load Order: (0, 0, 0, 4)
+Updated Buffer State: (2, 2, 0, 0)
+Updated Load Order: (0, 0, 0, 4)
+
+Current Time: 1180503us
+Part Worker ID: 6
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 5us
+Buffer State: (2, 2, 0, 0)
+Load Order: (1, 0, 3, 0)
+Updated Buffer State: (3, 2, 3, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1185769us
+Part Worker ID: 0
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 6us
+Buffer State: (3, 2, 3, 0)
+Load Order: (1, 1, 2, 0)
+Updated Buffer State: (4, 3, 3, 0)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 1190050us
+Part Worker ID: 0
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4286us
+Buffer State: (4, 3, 3, 0)
+Load Order: (0, 0, 2, 0)
+Updated Buffer State: (4, 3, 3, 0)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 1211615us
+Part Worker ID: 12
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 22us
+Buffer State: (4, 3, 3, 0)
+Load Order: (1, 2, 1, 0)
+Updated Buffer State: (5, 5, 4, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1217479us
+Part Worker ID: 10
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 333760us
+Buffer State: (5, 5, 4, 0)
+Load Order: (0, 2, 2, 0)
+Updated Buffer State: (5, 5, 4, 0)
+Updated Load Order: (0, 2, 2, 0)
+
+Current Time: 1227181us
+Part Worker ID: 14
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 20us
+Buffer State: (5, 5, 4, 0)
+Load Order: (1, 1, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 1, 0, 0)
+
+Current Time: 1233196us
+Part Worker ID: 14
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6035us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 1, 0, 0)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 1, 0, 0)
+
+Current Time: 1242493us
+Part Worker ID: 8
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 654950us
+Buffer State: (6, 5, 4, 2)
+Load Order: (1, 1, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (1, 1, 0, 2)
+
+Current Time: 1258099us
+Part Worker ID: 7
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 11us
+Buffer State: (6, 5, 4, 2)
+Load Order: (1, 2, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (1, 2, 0, 0)
+
+Current Time: 1262819us
+Part Worker ID: 7
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4730us
+Buffer State: (6, 5, 4, 3)
+Load Order: (1, 2, 0, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (1, 2, 0, 0)
+
+Current Time: 1273365us
+Part Worker ID: 11
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 304621us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 0, 4, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 0, 4, 0)
+
+Current Time: 1289244us
+Product Worker ID: 2
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 6us
+Buffer State: (6, 5, 4, 3)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (3, 4, 4, 2)
 Updated Product Order: (0, 0, 0, 0)
 Total Completed Products: 10
 
-Current Time: 4790us
-Product Worker ID: 15
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 4109us
-Buffer State: (2, 0, 3, 3)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (2, 0, 3, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 11
-
-Current Time: 4853us
-Product Worker ID: 9
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 0, 3, 1)
-Pickup Order: (0, 3, 1, 1)
-Updated Buffer State: (2, 0, 2, 0)
-Updated Product Order: (0, 3, 0, 0)
-Total Completed Products: 11
-
-Current Time: 4911us
-Part Worker ID: 0
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 0, 2, 0)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (3, 1, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 4972us
-Part Worker ID: 5
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (3, 1, 3, 1)
-Load Order: (0, 3, 1, 0)
-Updated Buffer State: (3, 4, 4, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 5031us
-Part Worker ID: 7
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (3, 4, 4, 1)
-Load Order: (1, 0, 0, 3)
-Updated Buffer State: (4, 4, 4, 1)
-Updated Load Order: (0, 0, 0, 3)
-
-Current Time: 5094us
-Part Worker ID: 19
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 4, 4, 1)
-Load Order: (2, 0, 2, 0)
-Updated Buffer State: (6, 4, 4, 1)
-Updated Load Order: (0, 0, 2, 0)
-
-Current Time: 5156us
-Product Worker ID: 3
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 4802us
-Buffer State: (6, 4, 4, 1)
-Pickup Order: (0, 1, 2, 0)
-Updated Buffer State: (6, 3, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 12
-
-Current Time: 5211us
-Product Worker ID: 7
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 4741us
-Buffer State: (6, 3, 2, 1)
-Pickup Order: (0, 3, 0, 0)
-Updated Buffer State: (6, 0, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 13
-
-Current Time: 5273us
-Part Worker ID: 2
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 0, 2, 1)
-Load Order: (2, 0, 0, 2)
-Updated Buffer State: (6, 0, 2, 3)
-Updated Load Order: (2, 0, 0, 0)
-
-Current Time: 5329us
-Part Worker ID: 6
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 2423us
-Buffer State: (6, 0, 2, 3)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (6, 0, 4, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 5393us
-Product Worker ID: 4
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 3876us
-Buffer State: (6, 0, 4, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (6, 0, 4, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 14
-
-Current Time: 5455us
-Part Worker ID: 1
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 3232us
-Buffer State: (6, 0, 4, 0)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (6, 0, 4, 0)
-Updated Load Order: (0, 0, 2, 0)
-
-Current Time: 5620us
-Product Worker ID: 6
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 0, 4, 0)
-Pickup Order: (1, 0, 3, 1)
-Updated Buffer State: (5, 0, 1, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 14
-
-Current Time: 5684us
-Part Worker ID: 4
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 0, 1, 0)
-Load Order: (1, 3, 0, 0)
-Updated Buffer State: (6, 3, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 5744us
-Part Worker ID: 13
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 3, 1, 0)
-Load Order: (0, 1, 1, 2)
-Updated Buffer State: (6, 4, 2, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 5795us
-Product Worker ID: 6
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 176us
-Buffer State: (6, 4, 2, 2)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (6, 4, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 15
-
-Current Time: 5858us
-Product Worker ID: 8
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 4, 2, 1)
-Pickup Order: (2, 0, 2, 1)
-Updated Buffer State: (4, 4, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 16
-
-Current Time: 5919us
-Product Worker ID: 15
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 4, 0, 0)
-Pickup Order: (0, 1, 1, 3)
-Updated Buffer State: (4, 3, 0, 0)
-Updated Product Order: (0, 0, 1, 3)
-Total Completed Products: 16
-
-Current Time: 5987us
-Part Worker ID: 8
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1371us
-Buffer State: (4, 3, 0, 0)
-Load Order: (0, 0, 1, 0)
-Updated Buffer State: (4, 3, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 6043us
-Part Worker ID: 10
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 3, 1, 0)
-Load Order: (2, 0, 1, 1)
-Updated Buffer State: (6, 3, 2, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 6092us
-Product Worker ID: 15
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 174us
-Buffer State: (6, 3, 2, 1)
-Pickup Order: (0, 0, 1, 3)
-Updated Buffer State: (6, 3, 1, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 16
-
-Current Time: 6172us
-Product Worker ID: 3
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 3, 1, 1)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (6, 2, 1, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 16
-
-Current Time: 6235us
-Product Worker ID: 5
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 2905us
-Buffer State: (6, 2, 1, 0)
-Pickup Order: (0, 2, 0, 0)
-Updated Buffer State: (6, 0, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 17
-
-Current Time: 6297us
-Product Worker ID: 10
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 5726us
-Buffer State: (6, 0, 1, 0)
-Pickup Order: (2, 0, 1, 0)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 18
-
-Current Time: 6356us
-Part Worker ID: 11
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 2125us
-Buffer State: (4, 0, 0, 0)
-Load Order: (0, 0, 3, 0)
-Updated Buffer State: (4, 0, 3, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 6413us
-Part Worker ID: 17
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 0, 3, 0)
-Load Order: (1, 2, 0, 1)
-Updated Buffer State: (5, 2, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 6495us
-Part Worker ID: 3
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 2, 3, 1)
-Load Order: (0, 2, 0, 2)
-Updated Buffer State: (5, 4, 3, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 6544us
-Product Worker ID: 3
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 373us
-Buffer State: (5, 4, 3, 3)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (5, 4, 0, 3)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 19
-
-Current Time: 6600us
-Product Worker ID: 1
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 3567us
-Buffer State: (5, 4, 0, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (5, 4, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 20
-
-Current Time: 6663us
-Part Worker ID: 15
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 1515us
-Buffer State: (5, 4, 0, 0)
-Load Order: (1, 2, 1, 0)
-Updated Buffer State: (6, 4, 1, 0)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 6729us
-Product Worker ID: 13
-Iteration: 0
-Status: Wakeup-Notified
-Accumulated Wait Time: 6081us
-Buffer State: (6, 4, 1, 0)
-Pickup Order: (2, 0, 0, 2)
-Updated Buffer State: (4, 4, 1, 0)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 20
-
-Current Time: 6781us
-Product Worker ID: 13
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6133us
-Buffer State: (4, 4, 1, 0)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (4, 4, 1, 0)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 20
-
-Current Time: 6967us
-Product Worker ID: 13
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 4, 1, 0)
-Pickup Order: (1, 0, 2, 2)
-Updated Buffer State: (3, 4, 1, 0)
-Updated Product Order: (0, 0, 2, 2)
-Total Completed Products: 20
-
-Current Time: 7020us
-Product Worker ID: 6
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 4, 1, 0)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (2, 1, 1, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 20
-
-Current Time: 7077us
-Part Worker ID: 9
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 1, 1, 0)
-Load Order: (0, 0, 1, 3)
-Updated Buffer State: (2, 1, 2, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7128us
-Product Worker ID: 2
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 4373us
-Buffer State: (2, 1, 2, 3)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (2, 1, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 21
-
-Current Time: 7190us
-Part Worker ID: 6
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 1, 2, 1)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (3, 2, 3, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7246us
-Part Worker ID: 18
-Iteration: 0
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (3, 2, 3, 2)
-Load Order: (3, 1, 0, 0)
-Updated Buffer State: (6, 3, 3, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7297us
-Product Worker ID: 13
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 331us
-Buffer State: (6, 3, 3, 2)
-Pickup Order: (0, 0, 2, 2)
-Updated Buffer State: (6, 3, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 22
-
-Current Time: 7351us
-Product Worker ID: 13
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 3, 1, 0)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (6, 1, 0, 0)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 22
-
-Current Time: 7404us
-Part Worker ID: 14
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1246us
-Buffer State: (6, 1, 0, 0)
-Load Order: (0, 0, 4, 0)
-Updated Buffer State: (6, 1, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7461us
-Part Worker ID: 4
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 1, 4, 0)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (6, 2, 4, 0)
-Updated Load Order: (1, 0, 2, 0)
-
-Current Time: 7516us
-Product Worker ID: 5
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 2, 4, 0)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (3, 2, 3, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 22
-
-Current Time: 7588us
-Product Worker ID: 7
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 2, 3, 0)
-Pickup Order: (1, 1, 0, 3)
-Updated Buffer State: (2, 1, 3, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 22
-
-Current Time: 7646us
-Product Worker ID: 10
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 1, 3, 0)
-Pickup Order: (1, 0, 1, 3)
-Updated Buffer State: (1, 1, 2, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 22
-
-Current Time: 7710us
-Product Worker ID: 4
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 1, 2, 0)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (1, 1, 1, 0)
-Updated Product Order: (0, 2, 0, 2)
-Total Completed Products: 22
-
-Current Time: 7767us
-Part Worker ID: 8
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 1, 1, 0)
-Load Order: (2, 2, 0, 0)
-Updated Buffer State: (3, 3, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7819us
-Part Worker ID: 5
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 3, 1, 0)
-Load Order: (1, 2, 0, 1)
-Updated Buffer State: (4, 5, 1, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7877us
-Product Worker ID: 3
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 5, 1, 1)
-Pickup Order: (2, 0, 2, 1)
-Updated Buffer State: (2, 5, 1, 0)
-Updated Product Order: (0, 0, 2, 0)
-Total Completed Products: 22
-
-Current Time: 7932us
-Part Worker ID: 19
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 2839us
-Buffer State: (2, 5, 1, 0)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (2, 5, 3, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 7990us
-Product Worker ID: 1
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 5, 3, 0)
-Pickup Order: (0, 1, 1, 3)
-Updated Buffer State: (2, 4, 2, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 22
-
-Current Time: 8047us
-Part Worker ID: 7
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 3018us
-Buffer State: (2, 4, 2, 0)
-Load Order: (0, 0, 0, 3)
-Updated Buffer State: (2, 4, 2, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 8097us
-Product Worker ID: 5
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 583us
-Buffer State: (2, 4, 2, 3)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (2, 4, 2, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 23
-
-Current Time: 8157us
-Part Worker ID: 2
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 2886us
-Buffer State: (2, 4, 2, 2)
-Load Order: (2, 0, 0, 0)
-Updated Buffer State: (4, 4, 2, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 8213us
-Product Worker ID: 14
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 7549us
-Buffer State: (4, 4, 2, 2)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (4, 4, 2, 2)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 23
-
-Current Time: 8465us
-Product Worker ID: 9
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 3614us
-Buffer State: (4, 4, 2, 2)
-Pickup Order: (0, 3, 0, 0)
-Updated Buffer State: (4, 1, 2, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 24
-
-Current Time: 8520us
-Product Worker ID: 4
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 812us
-Buffer State: (4, 1, 2, 2)
-Pickup Order: (0, 2, 0, 2)
-Updated Buffer State: (4, 1, 2, 0)
-Updated Product Order: (0, 2, 0, 0)
-Total Completed Products: 24
-
-Current Time: 8577us
-Part Worker ID: 17
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 1, 2, 0)
-Load Order: (1, 0, 1, 2)
-Updated Buffer State: (5, 1, 3, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 8627us
-Product Worker ID: 13
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 1277us
-Buffer State: (5, 1, 3, 2)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (5, 1, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 25
-
-Current Time: 8698us
-Product Worker ID: 3
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 823us
-Buffer State: (5, 1, 3, 0)
-Pickup Order: (0, 0, 2, 0)
-Updated Buffer State: (5, 1, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 26
-
-Current Time: 8759us
-Part Worker ID: 12
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 2783us
-Buffer State: (5, 1, 1, 0)
-Load Order: (0, 4, 0, 0)
-Updated Buffer State: (5, 5, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 8848us
-Part Worker ID: 13
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 1, 0)
-Load Order: (3, 0, 0, 1)
-Updated Buffer State: (5, 5, 1, 1)
-Updated Load Order: (3, 0, 0, 0)
-
-Current Time: 8909us
-Part Worker ID: 4
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1449us
-Buffer State: (5, 5, 1, 1)
-Load Order: (1, 0, 2, 0)
-Updated Buffer State: (6, 5, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 8972us
-Part Worker ID: 9
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 3, 1)
-Load Order: (0, 0, 2, 2)
-Updated Buffer State: (6, 5, 3, 3)
-Updated Load Order: (0, 0, 2, 0)
-
-Current Time: 9037us
-Part Worker ID: 10
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 3, 3)
-Load Order: (0, 3, 1, 0)
-Updated Buffer State: (6, 5, 4, 3)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 9094us
-Product Worker ID: 11
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 6529us
-Buffer State: (6, 5, 4, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (6, 5, 4, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 27
-
-Current Time: 9154us
-Part Worker ID: 15
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 4006us
-Buffer State: (6, 5, 4, 0)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (6, 5, 4, 0)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 9292us
-Part Worker ID: 11
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 4, 0)
-Load Order: (0, 3, 0, 1)
-Updated Buffer State: (6, 5, 4, 1)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 9346us
-Product Worker ID: 14
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 5, 4, 1)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (3, 5, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 28
-
-Current Time: 9407us
-Product Worker ID: 9
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 5, 3, 0)
-Pickup Order: (1, 0, 1, 3)
-Updated Buffer State: (2, 5, 2, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 28
-
-Current Time: 9473us
-Part Worker ID: 9
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 502us
-Buffer State: (2, 5, 2, 0)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (2, 5, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 9531us
-Part Worker ID: 8
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 5, 4, 0)
-Load Order: (0, 0, 1, 3)
-Updated Buffer State: (2, 5, 4, 3)
-Updated Load Order: (0, 0, 1, 0)
-
-Current Time: 9586us
-Product Worker ID: 2
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 5, 4, 3)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (2, 4, 1, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 29
-
-Current Time: 9649us
-Part Worker ID: 2
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 4, 1, 2)
-Load Order: (1, 2, 1, 0)
-Updated Buffer State: (3, 4, 2, 2)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 9706us
-Product Worker ID: 13
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 4, 2, 2)
-Pickup Order: (3, 1, 0, 1)
-Updated Buffer State: (0, 3, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 30
-
-Current Time: 9761us
-Part Worker ID: 8
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 232us
-Buffer State: (0, 3, 2, 1)
-Load Order: (0, 0, 1, 0)
-Updated Buffer State: (0, 3, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 9834us
-Part Worker ID: 16
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 5163us
-Buffer State: (0, 3, 3, 1)
-Load Order: (0, 0, 0, 3)
-Updated Buffer State: (0, 3, 3, 1)
-Updated Load Order: (0, 0, 0, 3)
-
-Current Time: 10096us
-Part Worker ID: 6
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (0, 3, 3, 1)
-Load Order: (2, 0, 2, 0)
-Updated Buffer State: (2, 3, 3, 1)
-Updated Load Order: (0, 0, 2, 0)
-
-Current Time: 10151us
-Product Worker ID: 4
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 2443us
-Buffer State: (2, 3, 3, 1)
-Pickup Order: (0, 2, 0, 0)
-Updated Buffer State: (2, 1, 3, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 31
-
-Current Time: 10205us
-Part Worker ID: 2
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 558us
-Buffer State: (2, 1, 3, 1)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (2, 3, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 10264us
-Product Worker ID: 11
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (2, 3, 3, 1)
-Pickup Order: (1, 0, 2, 2)
-Updated Buffer State: (1, 3, 1, 1)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 31
-
-Current Time: 10323us
-Product Worker ID: 5
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (1, 3, 1, 1)
-Pickup Order: (0, 3, 1, 1)
-Updated Buffer State: (1, 0, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 32
-
-Current Time: 10382us
-Part Worker ID: 19
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (1, 0, 0, 0)
-Load Order: (1, 3, 0, 0)
-Updated Buffer State: (2, 3, 0, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 10439us
-Part Worker ID: 4
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 3, 0, 0)
-Load Order: (3, 0, 1, 0)
-Updated Buffer State: (5, 3, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 10502us
-Part Worker ID: 12
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (5, 3, 1, 0)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (6, 4, 2, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 10564us
-Part Worker ID: 18
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 1534us
-Buffer State: (6, 4, 2, 1)
-Load Order: (0, 0, 3, 1)
-Updated Buffer State: (6, 4, 2, 2)
-Updated Load Order: (0, 0, 3, 0)
-
-Current Time: 10617us
-Product Worker ID: 11
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 355us
-Buffer State: (6, 4, 2, 2)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (6, 4, 2, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 33
-
-Current Time: 10679us
-Part Worker ID: 16
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 4, 2, 0)
-Load Order: (1, 0, 2, 1)
-Updated Buffer State: (6, 4, 4, 1)
-Updated Load Order: (1, 0, 0, 0)
-
-Current Time: 10746us
-Product Worker ID: 8
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 4, 4, 1)
-Pickup Order: (2, 2, 1, 0)
-Updated Buffer State: (4, 2, 3, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 34
-
-Current Time: 10821us
-Product Worker ID: 2
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 2, 3, 1)
-Pickup Order: (2, 1, 2, 0)
-Updated Buffer State: (2, 1, 1, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 35
-
-Current Time: 10918us
+Current Time: 1293706us
 Product Worker ID: 2
 Iteration: 4
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 1, 1, 1)
+Accumulated Wait Time: 2us
+Buffer State: (3, 4, 4, 2)
 Pickup Order: (2, 0, 1, 2)
-Updated Buffer State: (0, 1, 0, 1)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 35
-
-Current Time: 10993us
-Part Worker ID: 18
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1963us
-Buffer State: (0, 1, 0, 1)
-Load Order: (0, 0, 3, 0)
-Updated Buffer State: (0, 1, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 11102us
-Product Worker ID: 12
-Iteration: 0
-Status: New Pickup Order
-Accumulated Wait Time: 10482us
-Buffer State: (0, 1, 3, 1)
-Pickup Order: (0, 1, 1, 3)
-Updated Buffer State: (0, 0, 2, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 35
-
-Current Time: 11173us
-Product Worker ID: 12
-Iteration: 0
-Status: Wakeup-Timeout
-Accumulated Wait Time: 10553us
-Buffer State: (0, 0, 2, 1)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (0, 0, 2, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 35
-
-Current Time: 11436us
-Part Worker ID: 15
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (0, 0, 2, 1)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (1, 1, 4, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 11511us
-Part Worker ID: 1
-Iteration: 1
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 1, 4, 1)
-Load Order: (0, 2, 2, 0)
-Updated Buffer State: (1, 3, 4, 1)
-Updated Load Order: (0, 0, 2, 0)
-
-Current Time: 11577us
-Product Worker ID: 4
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 3, 4, 1)
-Pickup Order: (0, 2, 2, 1)
-Updated Buffer State: (1, 1, 2, 0)
+Updated Buffer State: (1, 4, 3, 0)
 Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 36
+Total Completed Products: 11
 
-Current Time: 11634us
-Part Worker ID: 1
+Current Time: 1298221us
+Part Worker ID: 9
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 9068us
+Buffer State: (1, 4, 3, 0)
+Load Order: (1, 2, 0, 1)
+Updated Buffer State: (2, 4, 3, 1)
+Updated Load Order: (0, 2, 0, 0)
+
+Current Time: 1302930us
+Part Worker ID: 9
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 13777us
+Buffer State: (2, 4, 3, 1)
+Load Order: (0, 2, 0, 0)
+Updated Buffer State: (2, 4, 3, 1)
+Updated Load Order: (0, 2, 0, 0)
+
+Current Time: 1320480us
+Product Worker ID: 8
 Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 125us
-Buffer State: (1, 1, 2, 0)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (1, 1, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
+Status: New Pickup Order
+Accumulated Wait Time: 230735us
+Buffer State: (2, 4, 3, 1)
+Pickup Order: (1, 0, 2, 2)
+Updated Buffer State: (1, 4, 1, 1)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 11
 
-Current Time: 11698us
-Product Worker ID: 5
-Iteration: 4
+Current Time: 1324880us
+Product Worker ID: 8
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 235135us
+Buffer State: (1, 4, 1, 1)
+Pickup Order: (0, 0, 0, 2)
+Updated Buffer State: (1, 4, 1, 1)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 11
+
+Current Time: 1337042us
+Product Worker ID: 8
+Iteration: 2
 Status: New Pickup Order
 Accumulated Wait Time: 2us
-Buffer State: (1, 1, 4, 0)
-Pickup Order: (2, 2, 1, 0)
-Updated Buffer State: (1, 1, 3, 0)
-Updated Product Order: (2, 2, 0, 0)
-Total Completed Products: 36
+Buffer State: (1, 4, 1, 1)
+Pickup Order: (3, 0, 1, 1)
+Updated Buffer State: (1, 4, 0, 0)
+Updated Product Order: (3, 0, 0, 0)
+Total Completed Products: 11
 
-Current Time: 11758us
-Part Worker ID: 8
-Iteration: 4
+Current Time: 1341890us
+Part Worker ID: 15
+Iteration: 3
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (1, 1, 3, 0)
-Load Order: (0, 3, 1, 0)
+Accumulated Wait Time: 5us
+Buffer State: (1, 4, 0, 0)
+Load Order: (0, 0, 4, 0)
 Updated Buffer State: (1, 4, 4, 0)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 11822us
-Product Worker ID: 5
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 126us
+Current Time: 1346766us
+Product Worker ID: 12
+Iteration: 1
+Status: New Pickup Order
+Accumulated Wait Time: 1197734us
 Buffer State: (1, 4, 4, 0)
-Pickup Order: (2, 2, 0, 0)
-Updated Buffer State: (1, 2, 4, 0)
-Updated Product Order: (2, 0, 0, 0)
-Total Completed Products: 36
+Pickup Order: (1, 3, 0, 1)
+Updated Buffer State: (0, 1, 4, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 11
 
-Current Time: 11898us
-Part Worker ID: 3
+Current Time: 1351993us
+Product Worker ID: 12
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 1202961us
+Buffer State: (0, 1, 4, 0)
+Pickup Order: (0, 0, 0, 1)
+Updated Buffer State: (0, 1, 4, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 11
+
+Current Time: 1367467us
+Product Worker ID: 10
 Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 2, 4, 0)
-Load Order: (2, 1, 0, 1)
-Updated Buffer State: (3, 3, 4, 1)
-Updated Load Order: (0, 0, 0, 0)
+Status: Wakeup-Notified
+Accumulated Wait Time: 265394us
+Buffer State: (0, 1, 4, 0)
+Pickup Order: (1, 0, 3, 0)
+Updated Buffer State: (0, 1, 1, 0)
+Updated Product Order: (1, 0, 0, 0)
+Total Completed Products: 11
 
-Current Time: 11965us
-Product Worker ID: 11
+Current Time: 1372397us
+Product Worker ID: 10
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 270323us
+Buffer State: (0, 1, 1, 0)
+Pickup Order: (1, 0, 0, 0)
+Updated Buffer State: (0, 1, 1, 0)
+Updated Product Order: (1, 0, 0, 0)
+Total Completed Products: 11
+
+Current Time: 1383139us
+Product Worker ID: 15
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 4us
+Buffer State: (0, 1, 1, 0)
+Pickup Order: (1, 1, 3, 0)
+Updated Buffer State: (0, 0, 1, 0)
+Updated Product Order: (1, 0, 3, 0)
+Total Completed Products: 11
+
+Current Time: 1388219us
+Product Worker ID: 7
 Iteration: 3
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 3, 4, 1)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (0, 3, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 37
+Accumulated Wait Time: 561810us
+Buffer State: (0, 0, 1, 0)
+Pickup Order: (0, 3, 1, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 3, 0, 1)
+Total Completed Products: 11
 
-Current Time: 12028us
-Part Worker ID: 14
+Current Time: 1393070us
+Product Worker ID: 7
 Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2941us
-Buffer State: (0, 3, 3, 0)
-Load Order: (2, 0, 0, 2)
-Updated Buffer State: (2, 3, 3, 2)
-Updated Load Order: (0, 0, 0, 0)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 566662us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 3, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 3, 0, 1)
+Total Completed Products: 11
 
-Current Time: 12078us
+Current Time: 1414311us
 Product Worker ID: 5
 Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 382us
-Buffer State: (2, 3, 3, 2)
-Pickup Order: (2, 0, 0, 0)
-Updated Buffer State: (0, 3, 3, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 38
+Status: Wakeup-Timeout
+Accumulated Wait Time: 265426us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 0, 2, 1)
+Total Completed Products: 11
 
-Current Time: 12142us
-Part Worker ID: 15
+Current Time: 1430442us
+Product Worker ID: 14
 Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (0, 3, 3, 2)
-Load Order: (0, 0, 3, 1)
-Updated Buffer State: (0, 3, 3, 3)
-Updated Load Order: (0, 0, 3, 0)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 265314us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 2, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 2, 0, 1)
+Total Completed Products: 11
 
-Current Time: 12205us
-Part Worker ID: 19
+Current Time: 1446152us
+Part Worker ID: 4
 Iteration: 3
 Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (0, 3, 3, 3)
-Load Order: (2, 1, 0, 1)
-Updated Buffer State: (2, 4, 3, 3)
+Accumulated Wait Time: 7us
+Buffer State: (0, 0, 0, 0)
+Load Order: (1, 1, 2, 0)
+Updated Buffer State: (1, 1, 2, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1450512us
+Part Worker ID: 6
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 4us
+Buffer State: (1, 1, 2, 0)
+Load Order: (1, 3, 0, 0)
+Updated Buffer State: (2, 4, 2, 0)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1454446us
+Part Worker ID: 1
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 227356us
+Buffer State: (2, 4, 2, 0)
+Load Order: (2, 2, 0, 0)
+Updated Buffer State: (4, 4, 2, 0)
+Updated Load Order: (0, 2, 0, 0)
+
+Current Time: 1458250us
+Part Worker ID: 1
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 231160us
+Buffer State: (4, 4, 2, 0)
+Load Order: (0, 2, 0, 0)
+Updated Buffer State: (4, 4, 2, 0)
+Updated Load Order: (0, 2, 0, 0)
+
+Current Time: 1477517us
+Part Worker ID: 0
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 18us
+Buffer State: (4, 4, 2, 0)
+Load Order: (2, 0, 1, 1)
+Updated Buffer State: (6, 4, 3, 1)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1483614us
+Part Worker ID: 3
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 256604us
+Buffer State: (6, 4, 3, 1)
+Load Order: (2, 0, 2, 0)
+Updated Buffer State: (6, 4, 3, 1)
+Updated Load Order: (2, 0, 2, 0)
+
+Current Time: 1492572us
+Part Worker ID: 19
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 250140us
+Buffer State: (6, 4, 3, 1)
+Load Order: (3, 1, 0, 0)
+Updated Buffer State: (6, 5, 3, 1)
+Updated Load Order: (3, 0, 0, 0)
+
+Current Time: 1497747us
+Part Worker ID: 19
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 255315us
+Buffer State: (6, 5, 3, 1)
+Load Order: (3, 0, 0, 0)
+Updated Buffer State: (6, 5, 3, 1)
+Updated Load Order: (3, 0, 0, 0)
+
+Current Time: 1508273us
+Part Worker ID: 16
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 250228us
+Buffer State: (6, 5, 3, 1)
+Load Order: (0, 0, 1, 3)
+Updated Buffer State: (6, 5, 4, 1)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 1514448us
+Part Worker ID: 16
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 256403us
+Buffer State: (6, 5, 4, 1)
+Load Order: (0, 0, 0, 3)
+Updated Buffer State: (6, 5, 4, 1)
+Updated Load Order: (0, 0, 0, 3)
+
+Current Time: 1523770us
+Part Worker ID: 14
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 19us
+Buffer State: (6, 5, 4, 1)
+Load Order: (0, 0, 3, 1)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 1529766us
+Part Worker ID: 14
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6016us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 1539636us
+Part Worker ID: 8
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 16us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 3, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 1545015us
+Part Worker ID: 8
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5395us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 3, 0, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 1555793us
+Product Worker ID: 4
+Iteration: 1
+Status: Wakeup-Notified
+Accumulated Wait Time: 484858us
+Buffer State: (6, 5, 4, 3)
+Pickup Order: (0, 3, 0, 1)
+Updated Buffer State: (6, 2, 4, 2)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 12
+
+Current Time: 1562678us
+Product Worker ID: 4
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (6, 2, 4, 2)
+Pickup Order: (0, 3, 1, 1)
+Updated Buffer State: (6, 2, 3, 1)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 12
+
+Current Time: 1568919us
+Product Worker ID: 4
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6248us
+Buffer State: (6, 2, 3, 1)
+Pickup Order: (0, 3, 0, 0)
+Updated Buffer State: (6, 2, 3, 1)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 12
+
+Current Time: 1586879us
+Product Worker ID: 4
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (6, 2, 3, 1)
+Pickup Order: (1, 0, 2, 2)
+Updated Buffer State: (5, 2, 1, 1)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 12
+
+Current Time: 1593337us
+Product Worker ID: 4
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6465us
+Buffer State: (5, 2, 1, 1)
+Pickup Order: (0, 0, 0, 2)
+Updated Buffer State: (5, 2, 1, 1)
+Updated Product Order: (0, 0, 0, 2)
+Total Completed Products: 12
+
+Current Time: 1602436us
+Product Worker ID: 4
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (5, 2, 1, 1)
+Pickup Order: (1, 3, 0, 1)
+Updated Buffer State: (4, 2, 1, 0)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 12
+
+Current Time: 1609267us
+Product Worker ID: 4
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6838us
+Buffer State: (4, 2, 1, 0)
+Pickup Order: (0, 3, 0, 0)
+Updated Buffer State: (4, 2, 1, 0)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 12
+
+Current Time: 1618111us
+Part Worker ID: 5
+Iteration: 1
+Status: New Load Order
+Accumulated Wait Time: 328916us
+Buffer State: (4, 2, 1, 0)
+Load Order: (2, 0, 0, 2)
+Updated Buffer State: (6, 2, 1, 2)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1623727us
+Part Worker ID: 18
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 334615us
+Buffer State: (6, 2, 1, 2)
+Load Order: (1, 0, 2, 1)
+Updated Buffer State: (6, 2, 3, 3)
+Updated Load Order: (1, 0, 0, 0)
+
+Current Time: 1629437us
+Part Worker ID: 18
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 340325us
+Buffer State: (6, 2, 3, 3)
+Load Order: (1, 0, 0, 0)
+Updated Buffer State: (6, 2, 3, 3)
+Updated Load Order: (1, 0, 0, 0)
+
+Current Time: 1649462us
+Part Worker ID: 7
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 32us
+Buffer State: (6, 2, 3, 3)
+Load Order: (0, 2, 2, 0)
+Updated Buffer State: (6, 4, 3, 3)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 1656744us
+Part Worker ID: 7
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7314us
+Buffer State: (6, 4, 3, 3)
+Load Order: (0, 0, 2, 0)
+Updated Buffer State: (6, 4, 3, 3)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 1680575us
+Part Worker ID: 11
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 33us
+Buffer State: (6, 4, 3, 3)
+Load Order: (0, 1, 3, 0)
+Updated Buffer State: (6, 5, 3, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 1688016us
+Part Worker ID: 11
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7473us
+Buffer State: (6, 5, 3, 3)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (6, 5, 3, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 1711788us
+Product Worker ID: 6
+Iteration: 1
+Status: Wakeup-Notified
+Accumulated Wait Time: 627440us
+Buffer State: (6, 5, 3, 3)
+Pickup Order: (0, 3, 0, 0)
+Updated Buffer State: (6, 2, 3, 3)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 13
+
+Current Time: 1720107us
+Product Worker ID: 6
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 12us
+Buffer State: (6, 2, 3, 3)
+Pickup Order: (1, 0, 2, 2)
+Updated Buffer State: (5, 2, 1, 1)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 14
+
+Current Time: 1727930us
+Product Worker ID: 6
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 13us
+Buffer State: (5, 2, 1, 1)
+Pickup Order: (1, 3, 0, 1)
+Updated Buffer State: (4, 2, 1, 0)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 14
+
+Current Time: 1738456us
+Product Worker ID: 6
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 10539us
+Buffer State: (4, 2, 1, 0)
+Pickup Order: (0, 3, 0, 0)
+Updated Buffer State: (4, 2, 1, 0)
+Updated Product Order: (0, 3, 0, 0)
+Total Completed Products: 14
+
+Current Time: 1758764us
+Product Worker ID: 6
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 6us
+Buffer State: (4, 2, 1, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (2, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 1)
+Total Completed Products: 14
+
+Current Time: 1766891us
+Product Worker ID: 6
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 8134us
+Buffer State: (2, 2, 1, 0)
+Pickup Order: (0, 0, 2, 1)
+Updated Buffer State: (2, 2, 1, 0)
+Updated Product Order: (0, 0, 2, 1)
+Total Completed Products: 14
+
+Current Time: 1789988us
+Product Worker ID: 12
+Iteration: 2
+Status: New Pickup Order
+Accumulated Wait Time: 18us
+Buffer State: (2, 2, 1, 0)
+Pickup Order: (1, 0, 1, 3)
+Updated Buffer State: (1, 2, 0, 0)
+Updated Product Order: (0, 0, 0, 3)
+Total Completed Products: 14
+
+Current Time: 1796171us
+Product Worker ID: 12
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6202us
+Buffer State: (1, 2, 0, 0)
+Pickup Order: (0, 0, 0, 3)
+Updated Buffer State: (1, 2, 0, 0)
+Updated Product Order: (0, 0, 0, 3)
+Total Completed Products: 14
+
+Current Time: 1805408us
+Product Worker ID: 12
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 7us
+Buffer State: (1, 2, 0, 0)
+Pickup Order: (2, 2, 1, 0)
+Updated Buffer State: (1, 0, 0, 0)
+Updated Product Order: (2, 0, 1, 0)
+Total Completed Products: 14
+
+Current Time: 1811581us
+Product Worker ID: 12
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6180us
+Buffer State: (1, 0, 0, 0)
+Pickup Order: (2, 0, 1, 0)
+Updated Buffer State: (1, 0, 0, 0)
+Updated Product Order: (2, 0, 1, 0)
+Total Completed Products: 14
+
+Current Time: 1820768us
+Product Worker ID: 15
+Iteration: 2
+Status: Wakeup-Notified
+Accumulated Wait Time: 437633us
+Buffer State: (1, 0, 0, 0)
+Pickup Order: (1, 0, 3, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 0, 3, 0)
+Total Completed Products: 14
+
+Current Time: 1826116us
+Product Worker ID: 15
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 442982us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (0, 0, 3, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (0, 0, 3, 0)
+Total Completed Products: 14
+
+Current Time: 1836235us
+Product Worker ID: 13
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 999248us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 0, 2, 2)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 0, 2, 2)
+Total Completed Products: 14
+
+Current Time: 1852352us
+Product Worker ID: 7
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 438063us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 3, 1, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 3, 1, 0)
+Total Completed Products: 14
+
+Current Time: 1867925us
+Product Worker ID: 14
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 421791us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (2, 1, 2, 0)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (2, 1, 2, 0)
+Total Completed Products: 14
+
+Current Time: 1883436us
+Part Worker ID: 6
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 10us
+Buffer State: (0, 0, 0, 0)
+Load Order: (0, 1, 0, 3)
+Updated Buffer State: (0, 1, 0, 3)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1888295us
+Part Worker ID: 12
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 404779us
+Buffer State: (0, 1, 0, 3)
+Load Order: (2, 2, 0, 0)
+Updated Buffer State: (2, 3, 0, 3)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 1893035us
+Part Worker ID: 1
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 10us
+Buffer State: (2, 3, 0, 3)
+Load Order: (0, 1, 2, 1)
+Updated Buffer State: (2, 4, 2, 3)
 Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 12263us
-Part Worker ID: 16
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1586us
-Buffer State: (2, 4, 3, 3)
-Load Order: (1, 0, 0, 0)
-Updated Buffer State: (3, 4, 3, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 12319us
-Part Worker ID: 13
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 3473us
-Buffer State: (3, 4, 3, 3)
-Load Order: (3, 0, 0, 0)
-Updated Buffer State: (6, 4, 3, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 12368us
-Product Worker ID: 15
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 6450us
-Buffer State: (6, 4, 3, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (6, 4, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 39
-
-Current Time: 12448us
-Product Worker ID: 13
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 4, 3, 0)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (6, 2, 2, 0)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 39
-
-Current Time: 12509us
-Product Worker ID: 12
-Iteration: 1
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 2, 2, 0)
-Pickup Order: (1, 0, 3, 1)
-Updated Buffer State: (5, 2, 2, 0)
-Updated Product Order: (0, 0, 3, 1)
-Total Completed Products: 39
-
-Current Time: 12566us
-Product Worker ID: 3
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 2, 2, 0)
-Pickup Order: (1, 0, 3, 1)
-Updated Buffer State: (4, 2, 2, 0)
-Updated Product Order: (0, 0, 3, 1)
-Total Completed Products: 39
-
-Current Time: 12625us
-Part Worker ID: 9
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 2, 2, 0)
-Load Order: (0, 2, 0, 2)
-Updated Buffer State: (4, 4, 2, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 12677us
-Product Worker ID: 13
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 231us
-Buffer State: (4, 4, 2, 2)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (4, 4, 2, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 40
-
-Current Time: 12736us
-Product Worker ID: 4
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 4, 2, 0)
-Pickup Order: (0, 1, 1, 3)
-Updated Buffer State: (4, 3, 1, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 40
-
-Current Time: 12807us
-Part Worker ID: 17
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 3, 1, 0)
-Load Order: (1, 2, 0, 1)
-Updated Buffer State: (5, 5, 1, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 12864us
-Part Worker ID: 6
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 2770us
-Buffer State: (5, 5, 1, 1)
-Load Order: (0, 0, 2, 0)
-Updated Buffer State: (5, 5, 3, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 12917us
-Product Worker ID: 6
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 5898us
-Buffer State: (5, 5, 3, 1)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (5, 5, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 41
-
-Current Time: 12993us
-Product Worker ID: 14
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 3, 0)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (5, 4, 0, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 41
-
-Current Time: 13047us
-Part Worker ID: 0
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 4022us
-Buffer State: (5, 4, 0, 0)
-Load Order: (0, 1, 0, 3)
-Updated Buffer State: (5, 5, 0, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 13093us
-Product Worker ID: 4
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 359us
-Buffer State: (5, 5, 0, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (5, 5, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 42
-
-Current Time: 13156us
-Part Worker ID: 10
-Iteration: 2
-Status: Wakeup-Timeout
-Accumulated Wait Time: 4120us
-Buffer State: (5, 5, 0, 0)
-Load Order: (0, 3, 0, 0)
-Updated Buffer State: (5, 5, 0, 0)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 13335us
-Part Worker ID: 2
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 5, 0, 0)
-Load Order: (0, 3, 0, 1)
-Updated Buffer State: (5, 5, 0, 1)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 13391us
-Part Worker ID: 5
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 0, 1)
-Load Order: (0, 1, 1, 2)
-Updated Buffer State: (5, 5, 1, 3)
-Updated Load Order: (0, 1, 0, 0)
-
-Current Time: 13442us
-Product Worker ID: 8
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 1, 3)
-Pickup Order: (1, 0, 1, 3)
-Updated Buffer State: (4, 5, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 43
-
-Current Time: 13506us
+Current Time: 1897628us
 Part Worker ID: 1
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (4, 5, 0, 0)
-Load Order: (2, 0, 0, 2)
-Updated Buffer State: (6, 5, 0, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 13579us
-Product Worker ID: 15
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 0, 2)
-Pickup Order: (1, 1, 3, 0)
-Updated Buffer State: (5, 4, 0, 2)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 43
-
-Current Time: 13641us
-Part Worker ID: 19
 Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1438us
-Buffer State: (5, 4, 0, 2)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4602us
+Buffer State: (2, 4, 2, 3)
 Load Order: (0, 0, 0, 1)
-Updated Buffer State: (5, 4, 0, 3)
-Updated Load Order: (0, 0, 0, 0)
+Updated Buffer State: (2, 4, 2, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 13692us
-Product Worker ID: 9
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 4286us
-Buffer State: (5, 4, 0, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (5, 4, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 44
-
-Current Time: 13752us
-Part Worker ID: 14
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 4, 0, 0)
-Load Order: (1, 3, 0, 0)
-Updated Buffer State: (6, 4, 0, 0)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 13804us
-Part Worker ID: 3
+Current Time: 1914295us
+Part Worker ID: 10
 Iteration: 3
 Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 4, 0, 0)
-Load Order: (0, 0, 1, 3)
-Updated Buffer State: (6, 4, 1, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 13850us
-Product Worker ID: 2
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 2933us
-Buffer State: (6, 4, 1, 3)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (6, 4, 1, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 45
-
-Current Time: 13902us
-Product Worker ID: 12
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 1394us
-Buffer State: (6, 4, 1, 1)
-Pickup Order: (0, 0, 3, 1)
-Updated Buffer State: (6, 4, 1, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 45
-
-Current Time: 13970us
-Part Worker ID: 18
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 4, 1, 0)
-Load Order: (1, 0, 0, 3)
-Updated Buffer State: (6, 4, 1, 3)
-Updated Load Order: (1, 0, 0, 0)
-
-Current Time: 14031us
-Part Worker ID: 13
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 4, 1, 3)
-Load Order: (0, 1, 3, 0)
-Updated Buffer State: (6, 5, 4, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 14083us
-Product Worker ID: 3
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1519us
-Buffer State: (6, 5, 4, 3)
-Pickup Order: (0, 0, 3, 1)
-Updated Buffer State: (6, 5, 1, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 46
-
-Current Time: 14143us
-Product Worker ID: 3
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 1, 2)
-Pickup Order: (3, 1, 0, 1)
-Updated Buffer State: (3, 4, 1, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 47
-
-Current Time: 14190us
-Part Worker ID: 11
-Iteration: 1
-Status: Wakeup-Timeout
-Accumulated Wait Time: 4899us
-Buffer State: (3, 4, 1, 1)
-Load Order: (0, 3, 0, 0)
-Updated Buffer State: (3, 4, 1, 1)
-Updated Load Order: (0, 3, 0, 0)
-
-Current Time: 14415us
-Product Worker ID: 7
-Iteration: 1
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6828us
-Buffer State: (3, 4, 1, 1)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (3, 4, 1, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 47
-
-Current Time: 14675us
-Product Worker ID: 7
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 4, 1, 1)
-Pickup Order: (2, 0, 2, 1)
-Updated Buffer State: (1, 4, 1, 0)
-Updated Product Order: (0, 0, 2, 0)
-Total Completed Products: 47
-
-Current Time: 14729us
-Part Worker ID: 0
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (1, 4, 1, 0)
+Accumulated Wait Time: 406106us
+Buffer State: (2, 4, 2, 3)
 Load Order: (3, 1, 0, 0)
-Updated Buffer State: (4, 5, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 14793us
-Product Worker ID: 1
-Iteration: 2
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6805us
-Buffer State: (4, 5, 1, 0)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (4, 5, 1, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 47
-
-Current Time: 15089us
-Product Worker ID: 9
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 5, 1, 0)
-Pickup Order: (1, 0, 1, 3)
-Updated Buffer State: (3, 5, 0, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 47
-
-Current Time: 15152us
-Part Worker ID: 7
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2841us
-Buffer State: (3, 5, 0, 0)
-Load Order: (0, 0, 4, 0)
-Updated Buffer State: (3, 5, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 15198us
-Part Worker ID: 0
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 5, 4, 0)
-Load Order: (2, 2, 0, 0)
-Updated Buffer State: (5, 5, 4, 0)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 15262us
-Part Worker ID: 10
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 4, 0)
-Load Order: (0, 2, 1, 1)
-Updated Buffer State: (5, 5, 4, 1)
-Updated Load Order: (0, 2, 1, 0)
-
-Current Time: 15322us
-Product Worker ID: 0
-Iteration: 1
-Status: Wakeup-Timeout
-Accumulated Wait Time: 10955us
-Buffer State: (5, 5, 4, 1)
-Pickup Order: (0, 0, 0, 2)
-Updated Buffer State: (5, 5, 4, 1)
-Updated Product Order: (0, 0, 0, 2)
-Total Completed Products: 47
-
-Current Time: 15522us
-Product Worker ID: 6
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 5, 4, 1)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (4, 2, 4, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 48
-
-Current Time: 15573us
-Part Worker ID: 14
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 1822us
-Buffer State: (4, 2, 4, 0)
-Load Order: (0, 3, 0, 0)
-Updated Buffer State: (4, 5, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 15664us
-Part Worker ID: 1
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 3us
-Buffer State: (4, 5, 4, 0)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (5, 5, 4, 1)
-Updated Load Order: (0, 1, 1, 0)
-
-Current Time: 15728us
-Product Worker ID: 11
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 5, 4, 1)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (5, 4, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 49
-
-Current Time: 15801us
-Part Worker ID: 10
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 541us
-Buffer State: (5, 4, 1, 0)
-Load Order: (0, 2, 1, 0)
-Updated Buffer State: (5, 4, 2, 0)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 15887us
-Part Worker ID: 11
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 4, 2, 0)
-Load Order: (0, 2, 0, 2)
-Updated Buffer State: (5, 4, 2, 2)
-Updated Load Order: (0, 2, 0, 0)
-
-Current Time: 15951us
-Part Worker ID: 5
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 2562us
-Buffer State: (5, 4, 2, 2)
-Load Order: (0, 1, 0, 0)
-Updated Buffer State: (5, 5, 2, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 16035us
-Part Worker ID: 15
-Iteration: 2
-Status: Wakeup-Timeout
-Accumulated Wait Time: 3896us
-Buffer State: (5, 5, 2, 2)
-Load Order: (0, 0, 3, 0)
-Updated Buffer State: (5, 5, 2, 2)
-Updated Load Order: (0, 0, 3, 0)
-
-Current Time: 16264us
-Product Worker ID: 7
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 1590us
-Buffer State: (5, 5, 2, 2)
-Pickup Order: (0, 0, 2, 0)
-Updated Buffer State: (5, 5, 0, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 50
-
-Current Time: 16340us
-Product Worker ID: 0
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 5, 0, 2)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (5, 4, 0, 1)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 50
-
-Current Time: 16415us
-Product Worker ID: 6
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 4, 0, 1)
-Pickup Order: (1, 1, 0, 3)
-Updated Buffer State: (4, 3, 0, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 50
-
-Current Time: 16489us
-Part Worker ID: 16
-Iteration: 2
-Status: New Load Order
-Accumulated Wait Time: 2466us
-Buffer State: (4, 3, 0, 1)
-Load Order: (0, 0, 4, 0)
-Updated Buffer State: (4, 3, 4, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 16564us
-Product Worker ID: 10
-Iteration: 1
-Status: Wakeup-Timeout
-Accumulated Wait Time: 8920us
-Buffer State: (4, 3, 4, 1)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (4, 3, 4, 1)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 50
-
-Current Time: 16838us
-Product Worker ID: 10
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (4, 3, 4, 1)
-Pickup Order: (0, 2, 2, 1)
-Updated Buffer State: (4, 1, 2, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 51
-
-Current Time: 16887us
-Product Worker ID: 10
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 1, 2, 0)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (3, 1, 2, 0)
-Updated Product Order: (0, 3, 0, 1)
-Total Completed Products: 51
-
-Current Time: 16943us
-Part Worker ID: 1
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1282us
-Buffer State: (3, 1, 2, 0)
-Load Order: (0, 1, 1, 0)
-Updated Buffer State: (3, 2, 3, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 16996us
-Part Worker ID: 19
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1346us
-Buffer State: (3, 2, 3, 0)
-Load Order: (3, 0, 1, 0)
-Updated Buffer State: (6, 2, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 17047us
-Part Worker ID: 7
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 2, 4, 0)
-Load Order: (1, 0, 2, 1)
-Updated Buffer State: (6, 2, 4, 1)
-Updated Load Order: (1, 0, 2, 0)
-
-Current Time: 17115us
-Product Worker ID: 14
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 4124us
-Buffer State: (6, 2, 4, 1)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (6, 2, 4, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 52
-
-Current Time: 17212us
-Product Worker ID: 15
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 3634us
-Buffer State: (6, 2, 4, 0)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (6, 2, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 53
-
-Current Time: 17265us
-Part Worker ID: 7
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 219us
-Buffer State: (6, 2, 1, 0)
-Load Order: (1, 0, 2, 0)
-Updated Buffer State: (6, 2, 3, 0)
-Updated Load Order: (1, 0, 0, 0)
-
-Current Time: 17325us
-Part Worker ID: 6
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1314us
-Buffer State: (6, 2, 3, 0)
-Load Order: (0, 1, 0, 3)
-Updated Buffer State: (6, 3, 3, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 17376us
-Product Worker ID: 9
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 2289us
-Buffer State: (6, 3, 3, 3)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (6, 3, 3, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 54
-
-Current Time: 17431us
-Product Worker ID: 9
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 3, 3, 0)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (3, 3, 2, 0)
-Updated Product Order: (0, 0, 0, 1)
-Total Completed Products: 54
-
-Current Time: 17482us
-Part Worker ID: 10
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 2222us
-Buffer State: (3, 3, 2, 0)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (3, 5, 2, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 17532us
-Part Worker ID: 18
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 3563us
-Buffer State: (3, 5, 2, 0)
-Load Order: (1, 0, 0, 0)
-Updated Buffer State: (4, 5, 2, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 17588us
-Part Worker ID: 1
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 5, 2, 0)
-Load Order: (1, 0, 0, 3)
 Updated Buffer State: (5, 5, 2, 3)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 17640us
-Product Worker ID: 9
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 210us
-Buffer State: (5, 5, 2, 3)
-Pickup Order: (0, 0, 0, 1)
-Updated Buffer State: (5, 5, 2, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 55
-
-Current Time: 17720us
-Product Worker ID: 10
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 834us
-Buffer State: (5, 5, 2, 2)
-Pickup Order: (0, 3, 0, 1)
-Updated Buffer State: (5, 2, 2, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 56
-
-Current Time: 17788us
-Part Worker ID: 11
-Iteration: 2
-Status: Wakeup-Notified
-Accumulated Wait Time: 1903us
-Buffer State: (5, 2, 2, 1)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (5, 4, 2, 1)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 17840us
-Part Worker ID: 16
+Current Time: 1919080us
+Part Worker ID: 3
 Iteration: 3
 Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 4, 2, 1)
-Load Order: (1, 0, 3, 0)
-Updated Buffer State: (6, 4, 2, 1)
-Updated Load Order: (0, 0, 3, 0)
+Accumulated Wait Time: 10us
+Buffer State: (5, 5, 2, 3)
+Load Order: (1, 0, 2, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 17897us
-Product Worker ID: 14
+Current Time: 1924112us
+Part Worker ID: 3
 Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 4, 2, 1)
-Pickup Order: (0, 3, 1, 1)
-Updated Buffer State: (6, 1, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 57
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5042us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 0, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 17951us
-Part Worker ID: 16
+Current Time: 1945606us
+Part Worker ID: 13
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 656538us
+Buffer State: (6, 5, 4, 3)
+Load Order: (1, 0, 0, 3)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (1, 0, 0, 3)
+
+Current Time: 1961219us
+Part Worker ID: 17
+Iteration: 1
+Status: Wakeup-Timeout
+Accumulated Wait Time: 672195us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 4, 0, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 4, 0, 0)
+
+Current Time: 1976903us
+Product Worker ID: 1
 Iteration: 3
 Status: Wakeup-Notified
-Accumulated Wait Time: 113us
-Buffer State: (6, 1, 1, 0)
-Load Order: (0, 0, 3, 0)
-Updated Buffer State: (6, 1, 4, 0)
-Updated Load Order: (0, 0, 0, 0)
+Accumulated Wait Time: 897054us
+Buffer State: (6, 5, 4, 3)
+Pickup Order: (0, 0, 0, 3)
+Updated Buffer State: (6, 5, 4, 0)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 15
 
-Current Time: 18000us
+Current Time: 1982340us
+Product Worker ID: 1
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 2us
+Buffer State: (6, 5, 4, 0)
+Pickup Order: (2, 0, 2, 1)
+Updated Buffer State: (4, 5, 2, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 15
+
+Current Time: 1988571us
+Product Worker ID: 1
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6234us
+Buffer State: (4, 5, 2, 0)
+Pickup Order: (0, 0, 0, 1)
+Updated Buffer State: (4, 5, 2, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 15
+
+Current Time: 2008877us
+Part Worker ID: 18
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 22us
+Buffer State: (4, 5, 2, 0)
+Load Order: (0, 1, 1, 2)
+Updated Buffer State: (4, 5, 3, 2)
+Updated Load Order: (0, 1, 0, 0)
+
+Current Time: 2015370us
+Part Worker ID: 18
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6515us
+Buffer State: (4, 5, 3, 2)
+Load Order: (0, 1, 0, 0)
+Updated Buffer State: (4, 5, 3, 2)
+Updated Load Order: (0, 1, 0, 0)
+
+Current Time: 2023746us
+Part Worker ID: 7
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 20us
+Buffer State: (4, 5, 3, 2)
+Load Order: (1, 0, 3, 0)
+Updated Buffer State: (5, 5, 3, 2)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 2029651us
+Part Worker ID: 7
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5924us
+Buffer State: (5, 5, 3, 2)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (5, 5, 3, 2)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 2039563us
+Product Worker ID: 8
+Iteration: 2
+Status: Wakeup-Notified
+Accumulated Wait Time: 702523us
+Buffer State: (5, 5, 3, 2)
+Pickup Order: (3, 0, 0, 0)
+Updated Buffer State: (2, 5, 3, 2)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 16
+
+Current Time: 2046436us
+Part Worker ID: 9
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 19us
+Buffer State: (2, 5, 3, 2)
+Load Order: (1, 1, 0, 2)
+Updated Buffer State: (3, 5, 3, 2)
+Updated Load Order: (0, 1, 0, 2)
+
+Current Time: 2052943us
+Part Worker ID: 9
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6525us
+Buffer State: (3, 5, 3, 2)
+Load Order: (0, 1, 0, 2)
+Updated Buffer State: (3, 5, 3, 2)
+Updated Load Order: (0, 1, 0, 2)
+
+Current Time: 2070697us
+Part Worker ID: 11
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 22us
+Buffer State: (3, 5, 3, 2)
+Load Order: (1, 1, 2, 0)
+Updated Buffer State: (4, 5, 3, 2)
+Updated Load Order: (0, 1, 2, 0)
+
+Current Time: 2077031us
+Part Worker ID: 11
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6356us
+Buffer State: (4, 5, 3, 2)
+Load Order: (0, 1, 2, 0)
+Updated Buffer State: (4, 5, 3, 2)
+Updated Load Order: (0, 1, 2, 0)
+
+Current Time: 2086560us
+Part Worker ID: 15
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 20us
+Buffer State: (4, 5, 3, 2)
+Load Order: (2, 0, 2, 0)
+Updated Buffer State: (6, 5, 3, 2)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 2092399us
+Part Worker ID: 15
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5858us
+Buffer State: (6, 5, 3, 2)
+Load Order: (0, 0, 2, 0)
+Updated Buffer State: (6, 5, 3, 2)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 2101733us
+Product Worker ID: 10
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 21us
+Buffer State: (6, 5, 3, 2)
+Pickup Order: (1, 1, 0, 3)
+Updated Buffer State: (5, 4, 3, 2)
+Updated Product Order: (0, 0, 0, 3)
+Total Completed Products: 16
+
+Current Time: 2108790us
+Product Worker ID: 10
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7078us
+Buffer State: (5, 4, 3, 2)
+Pickup Order: (0, 0, 0, 3)
+Updated Buffer State: (5, 4, 3, 2)
+Updated Product Order: (0, 0, 0, 3)
+Total Completed Products: 16
+
+Current Time: 2117780us
+Product Worker ID: 10
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 57us
+Buffer State: (5, 4, 3, 2)
+Pickup Order: (2, 0, 1, 2)
+Updated Buffer State: (3, 4, 2, 0)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 17
+
+Current Time: 2123790us
 Product Worker ID: 15
 Iteration: 3
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 1, 4, 0)
-Pickup Order: (1, 3, 1, 0)
-Updated Buffer State: (5, 1, 3, 0)
-Updated Product Order: (0, 3, 0, 0)
-Total Completed Products: 57
+Accumulated Wait Time: 25us
+Buffer State: (3, 4, 2, 0)
+Pickup Order: (0, 2, 2, 1)
+Updated Buffer State: (3, 2, 0, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 17
 
-Current Time: 18059us
-Product Worker ID: 7
+Current Time: 2130138us
+Product Worker ID: 15
 Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6374us
+Buffer State: (3, 2, 0, 0)
+Pickup Order: (0, 0, 0, 1)
+Updated Buffer State: (3, 2, 0, 0)
+Updated Product Order: (0, 0, 0, 1)
+Total Completed Products: 17
+
+Current Time: 2149389us
+Product Worker ID: 15
+Iteration: 4
 Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 1, 3, 0)
-Pickup Order: (1, 1, 3, 0)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 58
+Accumulated Wait Time: 7us
+Buffer State: (3, 2, 0, 0)
+Pickup Order: (2, 1, 2, 0)
+Updated Buffer State: (1, 1, 0, 0)
+Updated Product Order: (0, 0, 2, 0)
+Total Completed Products: 17
 
-Current Time: 18118us
-Part Worker ID: 2
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 4784us
-Buffer State: (4, 0, 0, 0)
-Load Order: (0, 3, 0, 0)
-Updated Buffer State: (4, 3, 0, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 18184us
-Part Worker ID: 7
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 1138us
-Buffer State: (4, 3, 0, 0)
-Load Order: (1, 0, 0, 0)
-Updated Buffer State: (5, 3, 0, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 18245us
-Part Worker ID: 5
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 3, 0, 0)
-Load Order: (1, 0, 1, 2)
-Updated Buffer State: (6, 3, 1, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 18301us
-Part Worker ID: 3
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 3, 1, 2)
-Load Order: (1, 1, 2, 0)
-Updated Buffer State: (6, 4, 3, 2)
-Updated Load Order: (1, 0, 0, 0)
-
-Current Time: 18353us
-Part Worker ID: 0
+Current Time: 2156246us
+Product Worker ID: 15
 Iteration: 4
 Status: Wakeup-Timeout
-Accumulated Wait Time: 3156us
-Buffer State: (6, 4, 3, 2)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (6, 4, 3, 2)
-Updated Load Order: (0, 2, 0, 0)
+Accumulated Wait Time: 6865us
+Buffer State: (1, 1, 0, 0)
+Pickup Order: (0, 0, 2, 0)
+Updated Buffer State: (1, 1, 0, 0)
+Updated Product Order: (0, 0, 2, 0)
+Total Completed Products: 17
 
-Current Time: 18490us
-Product Worker ID: 10
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 4, 3, 2)
-Pickup Order: (3, 1, 0, 1)
-Updated Buffer State: (3, 3, 3, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 59
-
-Current Time: 18549us
-Product Worker ID: 12
-Iteration: 1
-Status: Wakeup-Notified
-Accumulated Wait Time: 6041us
-Buffer State: (3, 3, 3, 1)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (3, 3, 0, 1)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 60
-
-Current Time: 18606us
-Product Worker ID: 12
-Iteration: 2
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 3, 0, 1)
-Pickup Order: (0, 1, 3, 1)
-Updated Buffer State: (3, 2, 0, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 60
-
-Current Time: 18658us
-Product Worker ID: 14
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (3, 2, 0, 0)
-Pickup Order: (2, 0, 2, 1)
-Updated Buffer State: (1, 2, 0, 0)
-Updated Product Order: (0, 0, 2, 1)
-Total Completed Products: 60
-
-Current Time: 18715us
-Product Worker ID: 1
+Current Time: 2165106us
+Product Worker ID: 13
 Iteration: 3
 Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (1, 2, 0, 0)
-Pickup Order: (1, 0, 2, 2)
-Updated Buffer State: (0, 2, 0, 0)
-Updated Product Order: (0, 0, 2, 2)
-Total Completed Products: 60
+Accumulated Wait Time: 312786us
+Buffer State: (1, 1, 0, 0)
+Pickup Order: (1, 0, 3, 1)
+Updated Buffer State: (0, 1, 0, 0)
+Updated Product Order: (0, 0, 3, 1)
+Total Completed Products: 17
 
-Current Time: 18773us
+Current Time: 2174560us
+Product Worker ID: 13
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 322241us
+Buffer State: (0, 1, 0, 0)
+Pickup Order: (0, 0, 3, 1)
+Updated Buffer State: (0, 1, 0, 0)
+Updated Product Order: (0, 0, 3, 1)
+Total Completed Products: 17
+
+Current Time: 2196368us
+Product Worker ID: 13
+Iteration: 4
+Status: New Pickup Order
+Accumulated Wait Time: 8us
+Buffer State: (0, 1, 0, 0)
+Pickup Order: (3, 1, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (3, 0, 0, 1)
+Total Completed Products: 17
+
+Current Time: 2202340us
+Product Worker ID: 14
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 318937us
+Buffer State: (0, 0, 0, 0)
+Pickup Order: (1, 3, 0, 1)
+Updated Buffer State: (0, 0, 0, 0)
+Updated Product Order: (1, 3, 0, 1)
+Total Completed Products: 17
+
+Current Time: 2211919us
+Part Worker ID: 12
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 17us
+Buffer State: (0, 0, 0, 0)
+Load Order: (1, 0, 0, 3)
+Updated Buffer State: (1, 0, 0, 3)
+Updated Load Order: (0, 0, 0, 0)
+
+Current Time: 2218381us
+Part Worker ID: 1
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 26us
+Buffer State: (1, 0, 0, 3)
+Load Order: (1, 0, 2, 1)
+Updated Buffer State: (2, 0, 2, 3)
+Updated Load Order: (0, 0, 0, 1)
+
+Current Time: 2225054us
+Part Worker ID: 1
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6698us
+Buffer State: (2, 0, 2, 3)
+Load Order: (0, 0, 0, 1)
+Updated Buffer State: (2, 0, 2, 3)
+Updated Load Order: (0, 0, 0, 1)
+
+Current Time: 2242458us
 Part Worker ID: 10
 Iteration: 4
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (0, 2, 0, 0)
-Load Order: (2, 0, 0, 2)
-Updated Buffer State: (2, 2, 0, 2)
-Updated Load Order: (0, 0, 0, 0)
+Accumulated Wait Time: 32us
+Buffer State: (2, 0, 2, 3)
+Load Order: (1, 1, 1, 1)
+Updated Buffer State: (3, 1, 3, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 18839us
-Product Worker ID: 14
+Current Time: 2248661us
+Part Worker ID: 10
 Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 182us
-Buffer State: (2, 2, 0, 2)
-Pickup Order: (0, 0, 2, 1)
-Updated Buffer State: (2, 2, 0, 1)
-Updated Product Order: (0, 0, 2, 0)
-Total Completed Products: 60
-
-Current Time: 18906us
-Part Worker ID: 12
-Iteration: 3
 Status: Wakeup-Timeout
-Accumulated Wait Time: 5273us
-Buffer State: (2, 2, 0, 1)
-Load Order: (0, 4, 0, 0)
-Updated Buffer State: (2, 2, 0, 1)
-Updated Load Order: (0, 4, 0, 0)
+Accumulated Wait Time: 6236us
+Buffer State: (3, 1, 3, 3)
+Load Order: (0, 0, 0, 1)
+Updated Buffer State: (3, 1, 3, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 19164us
-Part Worker ID: 15
+Current Time: 2257695us
+Part Worker ID: 16
 Iteration: 3
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (2, 2, 0, 1)
-Load Order: (2, 1, 0, 1)
-Updated Buffer State: (4, 3, 0, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 19214us
-Product Worker ID: 15
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1215us
-Buffer State: (4, 3, 0, 2)
-Pickup Order: (0, 3, 0, 0)
-Updated Buffer State: (4, 0, 0, 2)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 61
-
-Current Time: 19272us
-Part Worker ID: 3
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 972us
-Buffer State: (4, 0, 0, 2)
-Load Order: (1, 0, 0, 0)
-Updated Buffer State: (5, 0, 0, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 19338us
-Product Worker ID: 7
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (5, 0, 0, 2)
-Pickup Order: (1, 0, 2, 2)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Product Order: (0, 0, 2, 0)
-Total Completed Products: 61
-
-Current Time: 19400us
-Part Worker ID: 17
-Iteration: 3
-Status: Wakeup-Timeout
-Accumulated Wait Time: 4329us
-Buffer State: (4, 0, 0, 0)
-Load Order: (0, 0, 0, 4)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Load Order: (0, 0, 0, 4)
-
-Current Time: 19737us
-Part Worker ID: 11
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 0, 0, 0)
+Accumulated Wait Time: 312139us
+Buffer State: (3, 1, 3, 3)
 Load Order: (1, 3, 0, 0)
-Updated Buffer State: (5, 3, 0, 0)
+Updated Buffer State: (4, 4, 3, 3)
 Updated Load Order: (0, 0, 0, 0)
 
-Current Time: 19791us
-Product Worker ID: 15
+Current Time: 2262813us
+Part Worker ID: 19
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 317297us
+Buffer State: (4, 4, 3, 3)
+Load Order: (1, 1, 1, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 0, 0, 1)
+
+Current Time: 2267450us
+Part Worker ID: 19
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 321933us
+Buffer State: (5, 5, 4, 3)
+Load Order: (0, 0, 0, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 0, 0, 1)
+
+Current Time: 2273098us
+Part Worker ID: 8
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 311921us
+Buffer State: (5, 5, 4, 3)
+Load Order: (3, 0, 0, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (3, 0, 0, 1)
+
+Current Time: 2289608us
+Part Worker ID: 14
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 328468us
+Buffer State: (5, 5, 4, 3)
+Load Order: (2, 0, 1, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (2, 0, 1, 1)
+
+Current Time: 2305075us
+Product Worker ID: 8
+Iteration: 3
+Status: New Pickup Order
+Accumulated Wait Time: 10us
+Buffer State: (5, 5, 4, 3)
+Pickup Order: (0, 2, 1, 2)
+Updated Buffer State: (5, 3, 3, 1)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 18
+
+Current Time: 2310623us
+Part Worker ID: 18
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 9us
+Buffer State: (5, 3, 3, 1)
+Load Order: (0, 0, 2, 2)
+Updated Buffer State: (5, 3, 3, 3)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 2314743us
+Part Worker ID: 18
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4128us
+Buffer State: (5, 3, 3, 3)
+Load Order: (0, 0, 2, 0)
+Updated Buffer State: (5, 3, 3, 3)
+Updated Load Order: (0, 0, 2, 0)
+
+Current Time: 2336210us
+Part Worker ID: 7
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 11us
+Buffer State: (5, 3, 3, 3)
+Load Order: (0, 3, 1, 0)
+Updated Buffer State: (5, 3, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 2341782us
+Part Worker ID: 7
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5583us
+Buffer State: (5, 3, 4, 3)
+Load Order: (0, 3, 0, 0)
+Updated Buffer State: (5, 3, 4, 3)
+Updated Load Order: (0, 3, 0, 0)
+
+Current Time: 2352307us
+Part Worker ID: 9
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 41us
+Buffer State: (5, 3, 4, 3)
+Load Order: (0, 1, 2, 1)
+Updated Buffer State: (5, 4, 4, 3)
+Updated Load Order: (0, 0, 2, 1)
+
+Current Time: 2359237us
+Part Worker ID: 9
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6970us
+Buffer State: (5, 4, 4, 3)
+Load Order: (0, 0, 2, 1)
+Updated Buffer State: (5, 4, 4, 3)
+Updated Load Order: (0, 0, 2, 1)
+
+Current Time: 2368792us
+Part Worker ID: 11
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 37us
+Buffer State: (5, 4, 4, 3)
+Load Order: (1, 0, 1, 2)
+Updated Buffer State: (6, 4, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 2376287us
+Part Worker ID: 11
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7532us
+Buffer State: (6, 4, 4, 3)
+Load Order: (0, 0, 1, 2)
+Updated Buffer State: (6, 4, 4, 3)
+Updated Load Order: (0, 0, 1, 2)
+
+Current Time: 2398959us
+Product Worker ID: 12
 Iteration: 4
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 3, 0, 0)
-Pickup Order: (0, 2, 1, 2)
-Updated Buffer State: (5, 1, 0, 0)
-Updated Product Order: (0, 0, 1, 2)
-Total Completed Products: 61
-
-Current Time: 19842us
-Part Worker ID: 18
-Iteration: 3
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 1, 0, 0)
-Load Order: (0, 0, 1, 3)
-Updated Buffer State: (5, 1, 1, 3)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 19888us
-Product Worker ID: 1
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1175us
-Buffer State: (5, 1, 1, 3)
-Pickup Order: (0, 0, 2, 2)
-Updated Buffer State: (5, 1, 1, 1)
-Updated Product Order: (0, 0, 2, 0)
-Total Completed Products: 61
-
-Current Time: 19939us
-Part Worker ID: 15
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 1, 1, 1)
-Load Order: (3, 1, 0, 0)
-Updated Buffer State: (5, 2, 1, 1)
-Updated Load Order: (3, 0, 0, 0)
-
-Current Time: 19997us
-Part Worker ID: 12
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (5, 2, 1, 1)
-Load Order: (1, 2, 0, 1)
-Updated Buffer State: (6, 4, 1, 2)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 20093us
-Product Worker ID: 15
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 303us
-Buffer State: (6, 4, 1, 2)
-Pickup Order: (0, 0, 1, 2)
-Updated Buffer State: (6, 4, 0, 0)
+Accumulated Wait Time: 37us
+Buffer State: (6, 4, 4, 3)
+Pickup Order: (0, 1, 1, 3)
+Updated Buffer State: (6, 3, 3, 0)
 Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 62
+Total Completed Products: 19
 
-Current Time: 20176us
+Current Time: 2407195us
+Part Worker ID: 2
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 27us
+Buffer State: (6, 3, 3, 0)
+Load Order: (1, 0, 1, 2)
+Updated Buffer State: (6, 3, 4, 2)
+Updated Load Order: (1, 0, 0, 0)
+
+Current Time: 2414616us
+Part Worker ID: 2
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 7448us
+Buffer State: (6, 3, 4, 2)
+Load Order: (1, 0, 0, 0)
+Updated Buffer State: (6, 3, 4, 2)
+Updated Load Order: (1, 0, 0, 0)
+
+Current Time: 2430103us
+Part Worker ID: 4
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 29us
+Buffer State: (6, 3, 4, 2)
+Load Order: (0, 2, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 2436824us
+Part Worker ID: 4
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6750us
+Buffer State: (6, 5, 4, 2)
+Load Order: (0, 0, 0, 2)
+Updated Buffer State: (6, 5, 4, 2)
+Updated Load Order: (0, 0, 0, 2)
+
+Current Time: 2445787us
+Product Worker ID: 13
+Iteration: 4
+Status: Wakeup-Notified
+Accumulated Wait Time: 249427us
+Buffer State: (6, 5, 4, 2)
+Pickup Order: (3, 0, 0, 1)
+Updated Buffer State: (3, 5, 4, 1)
+Updated Product Order: (0, 0, 0, 0)
+Total Completed Products: 20
+
+Current Time: 2453125us
 Part Worker ID: 16
 Iteration: 4
 Status: New Load Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 4, 0, 0)
-Load Order: (0, 1, 3, 0)
-Updated Buffer State: (6, 5, 3, 0)
-Updated Load Order: (0, 0, 0, 0)
-
-Current Time: 20227us
-Product Worker ID: 14
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 1570us
-Buffer State: (6, 5, 3, 0)
-Pickup Order: (0, 0, 2, 0)
-Updated Buffer State: (6, 5, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 63
-
-Current Time: 20336us
-Part Worker ID: 11
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 5, 1, 0)
-Load Order: (3, 0, 1, 0)
-Updated Buffer State: (6, 5, 2, 0)
-Updated Load Order: (3, 0, 0, 0)
-
-Current Time: 20423us
-Product Worker ID: 1
-Iteration: 3
-Status: Wakeup-Notified
-Accumulated Wait Time: 1710us
-Buffer State: (6, 5, 2, 0)
-Pickup Order: (0, 0, 2, 0)
-Updated Buffer State: (6, 5, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 64
-
-Current Time: 20514us
-Part Worker ID: 17
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 5, 0, 0)
-Load Order: (1, 1, 1, 1)
-Updated Buffer State: (6, 5, 1, 1)
-Updated Load Order: (1, 1, 0, 0)
-
-Current Time: 20578us
-Part Worker ID: 18
-Iteration: 4
-Status: New Load Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 5, 1, 1)
-Load Order: (0, 2, 2, 0)
-Updated Buffer State: (6, 5, 3, 1)
+Accumulated Wait Time: 24us
+Buffer State: (3, 5, 4, 1)
+Load Order: (2, 2, 0, 0)
+Updated Buffer State: (5, 5, 4, 1)
 Updated Load Order: (0, 2, 0, 0)
 
-Current Time: 20628us
-Product Worker ID: 1
+Current Time: 2459878us
+Part Worker ID: 16
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 6777us
+Buffer State: (5, 5, 4, 1)
+Load Order: (0, 2, 0, 0)
+Updated Buffer State: (5, 5, 4, 1)
+Updated Load Order: (0, 2, 0, 0)
+
+Current Time: 2486217us
+Part Worker ID: 3
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 181305us
+Buffer State: (5, 5, 4, 1)
+Load Order: (2, 0, 0, 2)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (2, 0, 0, 0)
+
+Current Time: 2492596us
+Part Worker ID: 3
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 187684us
+Buffer State: (5, 5, 4, 3)
+Load Order: (2, 0, 0, 0)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (2, 0, 0, 0)
+
+Current Time: 2507633us
+Product Worker ID: 8
 Iteration: 4
 Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (6, 5, 3, 1)
-Pickup Order: (1, 3, 0, 1)
-Updated Buffer State: (5, 2, 3, 0)
+Accumulated Wait Time: 12us
+Buffer State: (5, 5, 4, 3)
+Pickup Order: (2, 1, 2, 0)
+Updated Buffer State: (3, 4, 2, 3)
 Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 65
+Total Completed Products: 21
 
-Current Time: 20687us
-Product Worker ID: 7
+Current Time: 2513741us
+Part Worker ID: 8
 Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 1351us
-Buffer State: (5, 2, 3, 0)
-Pickup Order: (0, 0, 2, 0)
-Updated Buffer State: (5, 2, 1, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 66
+Status: New Load Order
+Accumulated Wait Time: 14us
+Buffer State: (3, 4, 2, 3)
+Load Order: (0, 0, 1, 3)
+Updated Buffer State: (3, 4, 3, 3)
+Updated Load Order: (0, 0, 0, 3)
 
-Current Time: 20765us
-Part Worker ID: 17
+Current Time: 2518203us
+Part Worker ID: 8
 Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 253us
-Buffer State: (5, 2, 1, 0)
-Load Order: (1, 1, 0, 0)
-Updated Buffer State: (6, 3, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
+Status: Wakeup-Timeout
+Accumulated Wait Time: 4475us
+Buffer State: (3, 4, 3, 3)
+Load Order: (0, 0, 0, 3)
+Updated Buffer State: (3, 4, 3, 3)
+Updated Load Order: (0, 0, 0, 3)
 
-Current Time: 20844us
-Part Worker ID: 18
-Iteration: 4
-Status: Wakeup-Notified
-Accumulated Wait Time: 268us
-Buffer State: (6, 3, 1, 0)
-Load Order: (0, 2, 0, 0)
-Updated Buffer State: (6, 5, 1, 0)
-Updated Load Order: (0, 0, 0, 0)
+Current Time: 2538779us
+Part Worker ID: 13
+Iteration: 3
+Status: New Load Order
+Accumulated Wait Time: 233798us
+Buffer State: (3, 4, 3, 3)
+Load Order: (2, 1, 0, 1)
+Updated Buffer State: (5, 5, 3, 3)
+Updated Load Order: (0, 0, 0, 1)
 
-Current Time: 22712us
-Product Worker ID: 0
+Current Time: 2543141us
+Part Worker ID: 13
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 238160us
+Buffer State: (5, 5, 3, 3)
+Load Order: (0, 0, 0, 1)
+Updated Buffer State: (5, 5, 3, 3)
+Updated Load Order: (0, 0, 0, 1)
+
+Current Time: 2554415us
+Part Worker ID: 5
+Iteration: 2
+Status: New Load Order
+Accumulated Wait Time: 249476us
+Buffer State: (5, 5, 3, 3)
+Load Order: (0, 2, 1, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 2, 0, 1)
+
+Current Time: 2558935us
+Part Worker ID: 5
 Iteration: 2
 Status: Wakeup-Timeout
-Accumulated Wait Time: 6373us
-Buffer State: (6, 5, 1, 0)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (6, 5, 1, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 66
+Accumulated Wait Time: 253996us
+Buffer State: (5, 5, 4, 3)
+Load Order: (0, 2, 0, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (0, 2, 0, 1)
 
-Current Time: 22957us
-Part Worker ID: 15
+Current Time: 2569799us
+Part Worker ID: 17
+Iteration: 2
+Status: Wakeup-Timeout
+Accumulated Wait Time: 264776us
+Buffer State: (5, 5, 4, 3)
+Load Order: (3, 0, 0, 1)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (3, 0, 0, 1)
+
+Current Time: 2585617us
+Part Worker ID: 19
 Iteration: 4
 Status: Wakeup-Timeout
-Accumulated Wait Time: 3019us
-Buffer State: (6, 5, 1, 0)
-Load Order: (3, 0, 0, 0)
-Updated Buffer State: (6, 5, 1, 0)
-Updated Load Order: (3, 0, 0, 0)
+Accumulated Wait Time: 99468us
+Buffer State: (5, 5, 4, 3)
+Load Order: (3, 1, 0, 0)
+Updated Buffer State: (5, 5, 4, 3)
+Updated Load Order: (3, 1, 0, 0)
 
-Current Time: 23102us
+Current Time: 2601339us
+Part Worker ID: 13
+Iteration: 4
+Status: New Load Order
+Accumulated Wait Time: 8us
+Buffer State: (5, 5, 4, 3)
+Load Order: (1, 0, 3, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 2607267us
+Part Worker ID: 13
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 5936us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 0, 3, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 0, 3, 0)
+
+Current Time: 2616750us
+Part Worker ID: 14
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 31179us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 3, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 3, 0, 1)
+
+Current Time: 2632250us
+Part Worker ID: 2
+Iteration: 4
+Status: Wakeup-Timeout
+Accumulated Wait Time: 46659us
+Buffer State: (6, 5, 4, 3)
+Load Order: (0, 1, 3, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (0, 1, 3, 0)
+
+Current Time: 2662282us
+Part Worker ID: 5
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 14285us
+Buffer State: (6, 5, 4, 3)
+Load Order: (1, 1, 0, 2)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (1, 1, 0, 2)
+
+Current Time: 2679701us
+Part Worker ID: 17
+Iteration: 3
+Status: Wakeup-Timeout
+Accumulated Wait Time: 31688us
+Buffer State: (6, 5, 4, 3)
+Load Order: (1, 2, 0, 1)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (1, 2, 0, 1)
+
+Current Time: 2724785us
 Part Worker ID: 5
 Iteration: 4
 Status: Wakeup-Timeout
-Accumulated Wait Time: 3029us
-Buffer State: (6, 5, 1, 0)
-Load Order: (0, 0, 0, 4)
-Updated Buffer State: (6, 5, 1, 0)
-Updated Load Order: (0, 0, 0, 4)
+Accumulated Wait Time: 15630us
+Buffer State: (6, 5, 4, 3)
+Load Order: (2, 0, 0, 2)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (2, 0, 0, 2)
 
-Current Time: 23432us
-Product Worker ID: 0
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 2us
-Buffer State: (6, 5, 1, 0)
-Pickup Order: (2, 2, 1, 0)
-Updated Buffer State: (4, 3, 0, 0)
-Updated Product Order: (0, 0, 0, 0)
-Total Completed Products: 67
-
-Current Time: 23499us
-Part Worker ID: 11
+Current Time: 2756024us
+Part Worker ID: 17
 Iteration: 4
 Status: Wakeup-Timeout
-Accumulated Wait Time: 3165us
-Buffer State: (4, 3, 0, 0)
-Load Order: (3, 0, 0, 0)
-Updated Buffer State: (4, 3, 0, 0)
-Updated Load Order: (3, 0, 0, 0)
-
-Current Time: 23644us
-Product Worker ID: 6
-Iteration: 4
-Status: Wakeup-Timeout
-Accumulated Wait Time: 7231us
-Buffer State: (4, 3, 0, 0)
-Pickup Order: (0, 0, 0, 3)
-Updated Buffer State: (4, 3, 0, 0)
-Updated Product Order: (0, 0, 0, 3)
-Total Completed Products: 67
-
-Current Time: 23918us
-Product Worker ID: 0
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 3us
-Buffer State: (4, 3, 0, 0)
-Pickup Order: (0, 3, 1, 1)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Product Order: (0, 0, 1, 1)
-Total Completed Products: 67
-
-Current Time: 24790us
-Product Worker ID: 12
-Iteration: 2
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6185us
-Buffer State: (4, 0, 0, 0)
-Pickup Order: (0, 0, 3, 0)
-Updated Buffer State: (4, 0, 0, 0)
-Updated Product Order: (0, 0, 3, 0)
-Total Completed Products: 67
-
-Current Time: 25041us
-Product Worker ID: 12
-Iteration: 3
-Status: New Pickup Order
-Accumulated Wait Time: 1us
-Buffer State: (4, 0, 0, 0)
-Pickup Order: (1, 3, 1, 0)
-Updated Buffer State: (3, 0, 0, 0)
-Updated Product Order: (0, 3, 1, 0)
-Total Completed Products: 67
-
-Current Time: 30193us
-Product Worker ID: 0
-Iteration: 4
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6278us
-Buffer State: (3, 0, 0, 0)
-Pickup Order: (0, 0, 1, 1)
-Updated Buffer State: (3, 0, 0, 0)
-Updated Product Order: (0, 0, 1, 1)
-Total Completed Products: 67
-
-Current Time: 31273us
-Product Worker ID: 12
-Iteration: 3
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6233us
-Buffer State: (3, 0, 0, 0)
-Pickup Order: (0, 3, 1, 0)
-Updated Buffer State: (3, 0, 0, 0)
-Updated Product Order: (0, 3, 1, 0)
-Total Completed Products: 67
-
-Current Time: 31689us
-Product Worker ID: 12
-Iteration: 4
-Status: New Pickup Order
-Accumulated Wait Time: 4us
-Buffer State: (3, 0, 0, 0)
-Pickup Order: (3, 0, 1, 1)
-Updated Buffer State: (0, 0, 0, 0)
-Updated Product Order: (0, 0, 1, 1)
-Total Completed Products: 67
-
-Current Time: 37962us
-Product Worker ID: 12
-Iteration: 4
-Status: Wakeup-Timeout
-Accumulated Wait Time: 6277us
-Buffer State: (0, 0, 0, 0)
-Pickup Order: (0, 0, 1, 1)
-Updated Buffer State: (0, 0, 0, 0)
-Updated Product Order: (0, 0, 1, 1)
-Total Completed Products: 67
+Accumulated Wait Time: 13529us
+Buffer State: (6, 5, 4, 3)
+Load Order: (2, 1, 1, 0)
+Updated Buffer State: (6, 5, 4, 3)
+Updated Load Order: (2, 1, 1, 0)
 
 Finish!
