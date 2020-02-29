@@ -26,6 +26,9 @@ vector<int> capacity { 6, 5, 4, 3 };
 vector<int> fidelity { 0, 0, 0, 0 };
 
 int TOTAL_PROD = 0;
+int PART_SLEEPERS = 0;
+int PROD_SLEEPERS = 0;
+
 
 vector<vector<int>> partPossibilities = {
 {0,0,0,4},
@@ -105,10 +108,12 @@ void PartWorker(int i){
 
 		chrono::system_clock::time_point start = chrono::system_clock::now();
 	wait:
+        PART_SLEEPERS++;
 		if (cv1.wait_until(lock, start + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can fit into buffer, will try to fit as much as possible
+            PART_SLEEPERS--;
 			chrono::system_clock::time_point curr_time = chrono::system_clock::now();
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(curr_time - prog_start).count() << "us" << endl;
 			cout << "Part Worker ID: " << i << endl;
@@ -158,7 +163,7 @@ void PartWorker(int i){
 			//Check if buffer can fit entire remaining load
 			//If not then discard the entire thing
             //This means that buffer might be full, or lots of part workers
-
+            PART_SLEEPERS--;
 			chrono::system_clock::time_point curr_time = chrono::system_clock::now();
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(curr_time - prog_start).count() << "us" << endl;
 			cout << "Part Worker ID: " << i << endl;
@@ -212,11 +217,12 @@ void PartWorker(int i){
 			
 			cv2.notify_one();
 		}
-		cv1.notify_one();
+        if(PART_SLEEPERS > PROD_SLEEPERS) cv1.notify_one();
+        else cv2.notify_one();
 		iteration++;
     }
-    cv2.notify_all();
-	cv1.notify_all();
+    if(PROD_SLEEPERS > 0) cv2.notify_all();
+	if(PART_SLEEPERS > 0) cv1.notify_all();
 }
 
 void ProductWorker(int i){
@@ -229,12 +235,13 @@ void ProductWorker(int i){
 		int waits = 0;
 		chrono::system_clock::time_point start = chrono::system_clock::now();
 	wait:
-
+        PROD_SLEEPERS++;
 		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); }))
         {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can pull from buffer, will try to pull as much as possible
+            PROD_SLEEPERS--;
 			chrono::system_clock::time_point curr_time = chrono::system_clock::now();
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(curr_time - prog_start).count() << "us" << endl;
 			cout << "Product Worker ID: " << i << endl;
@@ -293,7 +300,7 @@ void ProductWorker(int i){
 			//Timeout condition
 			//Check if entire order can be picked up. If yes then assemble
 			//If not then discard the picked out items
-
+            PROD_SLEEPERS--;
 			chrono::system_clock::time_point curr_time = chrono::system_clock::now();
 			cout << "Current Time: " << chrono::duration_cast<chrono::microseconds>(curr_time - prog_start).count() << "us" << endl;
 			cout << "Product Worker ID: " << i << endl;
@@ -358,11 +365,12 @@ void ProductWorker(int i){
 			cv1.notify_one();
 		}
 		
-		cv2.notify_one();
+		if(PROD_SLEEPERS > PART_SLEEPERS) cv2.notify_one();
+        else cv1.notify_one();
 		iteration++;
     }
-	cv1.notify_all();
-    cv2.notify_all();
+	if(PART_SLEEPERS > 0) cv1.notify_all();
+    if(PROD_SLEEPERS > 0) cv2.notify_all();
 }
 
 
