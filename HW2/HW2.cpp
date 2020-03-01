@@ -224,7 +224,6 @@ void PartWorker(int i){
 			cout << "Updated Load Order: (" << loadOrder[0] << ", " << loadOrder[1] << ", " << loadOrder[2] << ", " << loadOrder[3] << ")" << endl;
 			cout << endl;
 			
-			cv2.notify_one();
 		}
         if(PART_SLEEPERS > PROD_SLEEPERS) cv1.notify_one();
         else cv2.notify_one();
@@ -371,7 +370,6 @@ void ProductWorker(int i){
 			cout << "Updated Product Order: (" << pickupOrder[0] << ", " << pickupOrder[1] << ", " << pickupOrder[2] << ", " << pickupOrder[3] << ")" << endl;
 			cout << "Total Completed Products: " << TOTAL_PROD << endl;
 			cout << endl;
-			cv1.notify_one();
 		}
 		
 		if(PROD_SLEEPERS > PART_SLEEPERS) cv2.notify_one();
