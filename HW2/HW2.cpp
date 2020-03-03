@@ -384,7 +384,7 @@ void ProductWorker(int i){
 
 int main(){
 
-    const int m = 20, n = 16; //m: number of Part Workers
+    const int m = 50, n = 40; //m: number of Part Workers
     //n: number of Product Workers
     //m>n
 	ofstream out("log.txt");
