@@ -413,7 +413,7 @@ int main(){
         partW[i].join();
     }
 	
-	
+	cout << "PRODUCTS COMPLETED: " << TOTAL_PROD << endl;
     cout << "Finish!" << endl;
     return 0;
 }
