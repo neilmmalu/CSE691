@@ -3,8 +3,8 @@
 //SU NetID: nemalu SUID: 635692900
 
 /*
-In this implementation, once timeout occurs, check if its possible to partially add/remove any parts
-Perform partial implementation and discard the rest
+In this implementation, once timeout occurs, check if its possible to COMPLETELY add/remove any parts
+If the entire order cannot be fulfilled, then discard the load/pickup order
 */
 
 #include <iostream>
@@ -66,9 +66,9 @@ bool pushBuffer(vector<int> loadOrder) {
 		(loadOrder[3] + buffer[3] <= 3 && loadOrder[3] != 0);
 }
 
-//bool pushBufferFull(vector<int> loadOrder) {
-//	return loadOrder[0] + buffer[0] <= 6 && loadOrder[1] + buffer[1] <= 5 && loadOrder[2] + buffer[2] <= 4 && loadOrder[3] + buffer[3] <= 3;
-//}
+bool pushBufferFull(vector<int> loadOrder) {
+	return loadOrder[0] + buffer[0] <= 6 && loadOrder[1] + buffer[1] <= 5 && loadOrder[2] + buffer[2] <= 4 && loadOrder[3] + buffer[3] <= 3;
+}
 
 bool pullBuffer(vector<int> pickupOrder) {
 	return (pickupOrder[0] <= buffer[0] && pickupOrder[0] != 0) || 
@@ -77,9 +77,9 @@ bool pullBuffer(vector<int> pickupOrder) {
 		(pickupOrder[3] <= buffer[3] && pickupOrder[3] != 0);
 }
 
-//bool pullBufferFull(vector<int> pickupOrder) {
-//	return pickupOrder[0] <= buffer[0] && pickupOrder[1] <= buffer[1] && pickupOrder[2] <= buffer[2] && pickupOrder[3] <= buffer[3];
-//}
+bool pullBufferFull(vector<int> pickupOrder) {
+	return pickupOrder[0] <= buffer[0] && pickupOrder[1] <= buffer[1] && pickupOrder[2] <= buffer[2] && pickupOrder[3] <= buffer[3];
+}
 
 vector<int> generateLoadOrder(){
 	srand(seed++);
@@ -184,17 +184,17 @@ void PartWorker(int i){
 			cout << "Load Order: (" << loadOrder[0] << ", " << loadOrder[1] << ", " << loadOrder[2] << ", " << loadOrder[3] << ")" << endl;
 
 
-			if (pushBuffer(loadOrder)) {
-				/*buffer[0] += loadOrder[0];
+			if (pushBufferFull(loadOrder)) {
+				buffer[0] += loadOrder[0];
 				loadOrder[0] = 0;
 				buffer[1] += loadOrder[1];
 				loadOrder[1] = 0;
 				buffer[2] += loadOrder[2];
 				loadOrder[2] = 0;
 				buffer[3] += loadOrder[3];
-				loadOrder[3] = 0;*/
+				loadOrder[3] = 0;
 
-				if (loadOrder[0] + buffer[0] <= 6) {
+				/*if (loadOrder[0] + buffer[0] <= 6) {
 					buffer[0] += loadOrder[0];
 					loadOrder[0] = 0;
 				}
@@ -212,7 +212,7 @@ void PartWorker(int i){
 				if (loadOrder[3] + buffer[3] <= 3) {
 					buffer[3] += loadOrder[3];
 					loadOrder[3] = 0;
-				}
+				}*/
 			}
 			else {
 				//discard
@@ -225,7 +225,8 @@ void PartWorker(int i){
 			cout << endl;
 			
 		}
-        if(PART_SLEEPERS > PROD_SLEEPERS) cv1.notify_one();
+		if (buffer[0] == 6 || buffer[1] == 5 || buffer[2] == 4 || buffer[3] == 3) cv2.notify_all();
+        else if(PART_SLEEPERS > PROD_SLEEPERS) cv1.notify_one();
         else cv2.notify_one();
 		iteration++;
     }
@@ -320,17 +321,17 @@ void ProductWorker(int i){
 			cout << "Pickup Order: (" << pickupOrder[0] << ", " << pickupOrder[1] << ", " << pickupOrder[2] << ", " << pickupOrder[3] << ")" << endl;
 
 
-			if (pullBuffer(pickupOrder)) {
-				/*buffer[0] -= pickupOrder[0];
+			if (pullBufferFull(pickupOrder)) {
+				buffer[0] -= pickupOrder[0];
 				pickupOrder[0] = 0;
 				buffer[1] -= pickupOrder[1];
 				pickupOrder[1] = 0;
 				buffer[2] -= pickupOrder[2];
 				pickupOrder[2] = 0;
 				buffer[3] -= pickupOrder[3];
-				pickupOrder[3] = 0;*/
+				pickupOrder[3] = 0;
 
-				if (buffer[0] >= pickupOrder[0]) {
+				/*if (buffer[0] >= pickupOrder[0]) {
 					buffer[0] -= pickupOrder[0];
 					pickupOrder[0] = 0;
 				}
@@ -348,7 +349,7 @@ void ProductWorker(int i){
 				if (buffer[3] >= pickupOrder[3]) {
 					buffer[3] -= pickupOrder[3];
 					pickupOrder[3] = 0;
-				}
+				}*/
 
 				if (pickupOrder == fidelity) {
 					//In this case don't put it back to sleep
@@ -372,7 +373,8 @@ void ProductWorker(int i){
 			cout << endl;
 		}
 		
-		if(PROD_SLEEPERS > PART_SLEEPERS) cv2.notify_one();
+		if (buffer == fidelity) cv1.notify_all();
+		else if(PROD_SLEEPERS > PART_SLEEPERS) cv2.notify_one();
         else cv1.notify_one();
 		iteration++;
     }
@@ -384,7 +386,7 @@ void ProductWorker(int i){
 
 int main(){
 
-    const int m = 50, n = 40; //m: number of Part Workers
+    const int m = 8, n = 6; //m: number of Part Workers
     //n: number of Product Workers
     //m>n
 	ofstream out("log.txt");
