@@ -118,7 +118,10 @@ void PartWorker(int i){
 		chrono::system_clock::time_point start = chrono::system_clock::now();
 	wait:
         PART_SLEEPERS++;
-		if (cv1.wait_until(lock, start + chrono::microseconds(timeOut), [loadOrder] { return pushBuffer(loadOrder); })) {
+		if (cv1.wait_until(lock, start + chrono::microseconds(timeOut), [loadOrder, &waits] { 
+			if(pushBuffer(loadOrder)) waits++;
+			return pushBuffer(loadOrder); 
+		})) {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
 			//If can fit into buffer, will try to fit as much as possible
@@ -156,7 +159,6 @@ void PartWorker(int i){
 			cout << "Updated Buffer State: (" << buffer[0] << ", " << buffer[1] << ", " << buffer[2] << ", " << buffer[3] << ")" << endl;
 			cout << "Updated Load Order: (" << loadOrder[0] << ", " << loadOrder[1] << ", " << loadOrder[2] << ", " << loadOrder[3] << ")" << endl;
 			cout << endl;
-			waits++;
 
 			if(loadOrder != fidelity){
 				//put it back to sleep
@@ -245,7 +247,10 @@ void ProductWorker(int i){
 		chrono::system_clock::time_point start = chrono::system_clock::now();
 	wait:
         PROD_SLEEPERS++;
-		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder] { return pullBuffer(pickupOrder); }))
+		if (cv2.wait_until(lock, start + chrono::microseconds(timeOut), [pickupOrder, &waits] { 
+			if(pullBuffer(pickupOrder)) waits++;
+			return pullBuffer(pickupOrder); 
+		}))
         {
 			//Will enter here if predicate is true
 			//If predicate is false, will sleep
@@ -283,7 +288,6 @@ void ProductWorker(int i){
 			cout << "Updated Buffer State: (" << buffer[0] << ", " << buffer[1] << ", " << buffer[2] << ", " << buffer[3] << ")" << endl;
 			cout << "Updated Product Order: (" << pickupOrder[0] << ", " << pickupOrder[1] << ", " << pickupOrder[2] << ", " << pickupOrder[3] << ")" << endl;
 			
-			waits++;
 
 			//Check if pickupOrder is complete
 			if (pickupOrder == fidelity) {
@@ -386,7 +390,7 @@ void ProductWorker(int i){
 
 int main(){
 
-    const int m = 8, n = 6; //m: number of Part Workers
+    const int m = 30, n = 25; //m: number of Part Workers
     //n: number of Product Workers
     //m>n
 	ofstream out("log.txt");
